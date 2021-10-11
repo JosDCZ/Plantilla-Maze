@@ -1,5 +1,4 @@
-
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 
 <body>
     <div id="app">
@@ -17,12 +16,12 @@
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3 style="color: white;">Nuevo Expediente</h3>
-                            <p style="color: lightgray;" >Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content</p>
+                            <h3>Nuevo Expediente</h3>
+                            <p style="color: lightgray;">Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content</p>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
-                                
+
                             </nav>
                         </div>
                     </div>
@@ -36,8 +35,8 @@
                                 <h4 class="modal-title" id="myModalLabel16">Formulario Datos personales
                                 </h4>
                                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                <i data-feather="x"></i>
-                            </button>
+                                    <i data-feather="x"></i>
+                                </button>
                             </div>
                             <div class="modal-body">
                                 <div class="row">
@@ -106,13 +105,13 @@
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                                 <label class="form-check-label" for="flexRadioDefault1">
-                                                 Masculino
+                                                    Masculino
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                                                 <label class="form-check-label" for="flexRadioDefault2">
-                                                  Femenino
+                                                    Femenino
                                                 </label>
                                             </div>
 
@@ -125,7 +124,7 @@
                                                 <option value="2">Casado</option>
                                                 <option value="3">Viudo</option>
                                                 <option value="3">Divorciado</option>
-                                              </select>
+                                            </select>
                                         </div>
                                         <div class="form-group has-icon-left">
                                             <label for="Nombre-icon">Direccion</label>
@@ -177,7 +176,7 @@
                                                 <option value="6">BRH positivo</option>
                                                 <option value="7">AB negativo</option>
                                                 <option value="8">ABRH positivo</option>
-                                              </select>
+                                            </select>
                                         </div>
                                         <div class="form-group has-icon-left">
                                             <label for="Id-icon">Estatura</label>
@@ -245,18 +244,25 @@
                     <div class="row">
                         <div class="col-md-3 col-12">
                             <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Lista de opciones</h4>
-                                </div>
+
                                 <div class="card-body">
 
                                     <!-- Button trigger for basic modal -->
 
                                     <div class="btn-group-vertical" role="group" aria-label="Basic example">
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModal" class="btn btn-outline-primary"><i class="bi bi-file-earmark-person"></i> Datos Personales</button>
-                                        <button type="button" class="btn btn-outline-primary"><i class="bi bi-person-lines-fill"></i> Contactos</button>
-                                        <button type="button" class="btn btn-outline-primary">Right</button>
-                                        <button type="button" class="btn btn-outline-primary">Justify</button>
+                                        <button type="button" class="btn btn-outline-primary"><i class="bi bi-person-lines-fill"></i> ONI</button>
+                                        <button type="button" class="btn btn-outline-primary">Promocion</button>
+                                        <button type="button" class="btn btn-outline-primary">Licencias</button>
+                                        <button type="button" class="btn btn-outline-primary">Arma</button>
+                                        <button type="button" class="btn btn-outline-primary">Familiares</button>
+                                        <button type="button" class="btn btn-outline-primary">Telefonos</button>
+                                        <button type="button" class="btn btn-outline-primary">AFP</button>
+                                        <button type="button" class="btn btn-outline-primary">Telefonos</button>
+                                        <button type="button" class="btn btn-outline-primary">Educación</button>
+                                        <button type="button" class="btn btn-outline-primary">Experiencia laboral</button>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -320,14 +326,11 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                 </section>
-            <?php include 'footer.php'; ?>
-            
+                <?php include 'footer.php'; ?>
+
+            </div>
         </div>
-    </div>
-   
+
 </body>
-
-
-

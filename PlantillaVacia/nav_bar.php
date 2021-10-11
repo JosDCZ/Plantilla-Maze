@@ -34,6 +34,42 @@
                         </li>
                         <li class="sidebar-item  has-sub">
                             <a href="#" class='sidebar-link'>
+                                <i class="bi bi-collection-fill"></i>
+                                <span><b>Registrar expediente</b></span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <a href="datos-personales.php"><b>Datos personales</b></a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="extra-component-sweetalert.html"><b>ONI</b></a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="extra-component-sweetalert.html"><b>Familiares</b></a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-collection-fill"></i>
+                                <span><b>Expediente</b></span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <a href="registrar-datos.php"><b>Datos personales</b></a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="extra-component-sweetalert.html"><b>ONI</b></a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="extra-component-sweetalert.html"><b>Familiares</b></a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="#" class='sidebar-link'>
                                 <i class="bi bi-truck"></i>
                                 <span><b>Vehiculos</b></span>
                             </a>
