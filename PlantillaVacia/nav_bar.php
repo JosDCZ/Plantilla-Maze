@@ -34,7 +34,7 @@
                         <a href="nuevo_expediente.php"><b>Nuevo expediente</b></a>
                     </li>
                     <li class="submenu-item ">
-                        <a href="extra-component-sweetalert.html"><b>Mantenimiento de expediente</b></a>
+                        <a href="vista-error.php"><b>Expedientes</b></a>
                     </li>
 
                 </ul>
