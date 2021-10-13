@@ -3739,8 +3739,9 @@ fieldset:disabled .btn {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  /* padding-bottom: 0.5rem;
+  padding-top: 0.5rem; */
+  padding: 0rem;
   position: relative;
 }
 .navbar > .container,
