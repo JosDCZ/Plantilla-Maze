@@ -428,7 +428,7 @@
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Habilidades</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">AFP</button>
-                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Familiares</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#large" class="btn btn-outline-primary">Familiares</button>
 
                                     </div>
                                 </div>
