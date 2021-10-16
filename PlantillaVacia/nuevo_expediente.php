@@ -239,6 +239,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- MODAL PARA ONI -->
+                <?php include 'modal_oni.php'; ?>
+
+                <!-- MODAL PARA PROMOCION -->
+                
+                <?php include 'modal_promocion.php'; ?>
+                
+                <!-- MODAL PARA ENFERMEDAD -->
+                <?php include 'modal_enfermedad.php'; ?>
                 <!--MODAL PARA REGISTRO DE CONTACTOS-->
                 <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
@@ -419,8 +428,9 @@
 
                                     <div class="btn-group-vertical" role="group" aria-label="Basic example">
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModal" class="btn btn-outline-primary"> Datos Personales</button>
-                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">ONI</button>
-                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Promoción</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#md_oni" class="btn btn-outline-primary">ONI</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-outline-primary">Enfermedades</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#md_promocion" class="btn btn-outline-primary">Promoción</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Arma</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Teléfonos</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Licencias</button>
