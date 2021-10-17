@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<div class="modal fade text-left" id="md_oni" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+<div class="modal fade text-left" id="md_addenfermedad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header bg-primary">
-                                <h4 class="modal-title white" id="myModalLabel16">Oni
+                                <h4 class="modal-title white" id="myModalLabel16">Registro de nueva enermedad
                                 </h4>
                                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                     <i data-feather="x"></i>
@@ -15,38 +15,29 @@
                                 <div class="row">
                                     <div class="">
                                         
-                                        <div class="form-group has-icon-left">
-                                            <label for="Id-icon">Dui del personal</label>
-                                            <select class="choices form-select">
-
-                                                        <option value="square">Seleccione...</option>
-                                                        <option value="square">[05580999-7]JUAN ANTONIO QUESADA</option>
-                                                        <option value="rectangle">[05580339-1] RIGOBERTO JOSUE GONZALES</option>
-                                                        <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
-                                                        
-                                            </select>
-                                        </div>
+                                        
 
                                         <div class="form-group has-icon-left">
-                                            <label for="Apellido-icon">ONI</label>
+                                            <label for="Apellido-icon">Nombre de enfermedad</label>
                                             <div class="position-relative">
-                                                <input type="text" class="form-control" placeholder="Ingrese numero de oni" id="Apellido-icon">
+                                                <input type="text" class="form-control" placeholder="Ingrese nombre de enfermedad" id="Apellido-icon">
                                                 <div class="form-control-icon">
-                                                    <i class="bi bi-credit-card-2-front"></i>
+                                                    <i class="bi bi-eyedropper"></i>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-group has-icon-left">
-                                            <label for="Id-icon">Categoria</label>
-                                            <select class="choices form-select">
-                                                        <option value="square">Seleccione...</option>
-                                                        <option value="square">Categoria 1</option>
-                                                        <option value="square">Categoria 2</option>
-                                                        <option value="square">Categoria 3</option>
-                                                        
-                                                        
-                                            </select>
-                                        </div>
+                            <label for="Id-icon">Tipo de enfermedad</label>
+                            <select class="form-select">
+                                <option value="square">Seleccione...</option>
+                                <option value="square">Cronica</option>
+                                <option value="square">Curable</option>
+                                
+
+
+                            </select>
+                        </div>
+                                        
                                         
 
                                         

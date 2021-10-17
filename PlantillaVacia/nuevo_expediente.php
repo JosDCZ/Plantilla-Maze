@@ -248,6 +248,9 @@
                 
                 <!-- MODAL PARA ENFERMEDAD -->
                 <?php include 'modal_enfermedad.php'; ?>
+
+                <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
+                <?php include 'modal_combo_enfermedades.php'; ?>
                 <!--MODAL PARA REGISTRO DE CONTACTOS-->
                 <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
