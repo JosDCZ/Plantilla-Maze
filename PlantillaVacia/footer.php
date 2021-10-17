@@ -14,4 +14,8 @@
 <!-- <script src="assets/vendors/apexcharts/apexcharts.js"></script> -->
 <!-- <script src="assets/js/pages/dashboard.js"></script> -->
 
+<!-- Include Choices JavaScript -->
+<script src="assets/vendors/choices.js/choices.min.js"></script>
+<script src="assets/js/pages/form-element-select.js"></script>
+
 <script src="assets/js/main.js"></script>

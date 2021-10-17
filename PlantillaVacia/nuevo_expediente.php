@@ -240,27 +240,40 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--MODAL PARA REGISTRO DE CONTACTOS-->
-            <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="myModalLabel16">Contactos Familiares
-                            </h4>
-                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                <i data-feather="x"></i>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="form-group has-icon-left">
-                                        <label for="Id-icon">DUI Familiar</label>
-                                        <div class="position-relative">
-                                            <input type="text" class="form-control" placeholder="00000000-0" id="Id-icon">
-                                            <div class="form-control-icon">
-                                                <i class="bi bi-credit-card-2-front"></i>
+                <!-- MODAL PARA ONI -->
+                <?php include 'modal_oni.php'; ?>
+
+                <!-- MODAL PARA PROMOCION -->
+
+                <?php include 'modal_promocion.php'; ?>
+
+                <!-- MODAL PARA ENFERMEDAD -->
+                <?php include 'modal_enfermedad.php'; ?>
+
+                <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
+                <?php include 'modal_combo_enfermedades.php'; ?>
+                <!--MODAL PARA REGISTRO DE CONTACTOS-->
+                <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel16">Contactos Familiares
+                                </h4>
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <i data-feather="x"></i>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group has-icon-left">
+                                            <label for="Id-icon">DUI Familiar</label>
+                                            <div class="position-relative">
+                                                <input type="text" class="form-control" placeholder="00000000-0" id="Id-icon">
+                                                <div class="form-control-icon">
+                                                    <i class="bi bi-credit-card-2-front"></i>
+                                                </div>
+                                                >>>>>>> 4650dfce4481006c958a9105dbefd3b87bbb33a5
                                             </div>
                                         </div>
                                     </div>
@@ -419,7 +432,7 @@
 
                                 <!-- Button trigger for basic modal -->
 
-                                <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                                <<<<<<< HEAD <div class="btn-group-vertical" role="group" aria-label="Basic example">
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModal" class="btn btn-outline-primary"> Datos Personales</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">ONI</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Promoción</button>
@@ -431,8 +444,23 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Habilidades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">AFP</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#large" class="btn btn-outline-primary">Familiares</button>
+                                    =======
+                                    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModal" class="btn btn-outline-primary"> Datos Personales</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#md_oni" class="btn btn-outline-primary">ONI</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-outline-primary">Enfermedades</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#md_promocion" class="btn btn-outline-primary">Promoción</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Arma</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Teléfonos</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Licencias</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Educación</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Habilidades</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">AFP</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#large" class="btn btn-outline-primary">Familiares</button>
+                                        >>>>>>> 4650dfce4481006c958a9105dbefd3b87bbb33a5
 
-                                </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
