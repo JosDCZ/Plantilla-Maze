@@ -241,98 +241,100 @@
                     </div>
                 </div>
                 <!-- MODAL PARA ONI -->
-                <?php include 'modal_oni.php'; ?>
+                <!-- <?php include 'modal_oni.php'; ?>
 
                 <!-- MODAL PARA PROMOCION -->
 
-                <?php include 'modal_promocion.php'; ?>
+
 
                 <!-- MODAL PARA ENFERMEDAD -->
                 <?php include 'modal_enfermedad.php'; ?>
 
                 <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
-                <?php include 'modal_combo_enfermedades.php'; ?>
+                <?php include 'modal_combo_enfermedades.php'; ?> -->
                 <!--MODAL PARA REGISTRO DE CONTACTOS-->
-                <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="myModalLabel16">Contactos Familiares
-                                </h4>
-                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                    <i data-feather="x"></i>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group has-icon-left">
-                                            <label for="Id-icon">DUI Familiar</label>
-                                            <div class="position-relative">
-                                                <input type="text" class="form-control" placeholder="00000000-0" id="Id-icon">
-                                                <div class="form-control-icon">
-                                                    <i class="bi bi-credit-card-2-front"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group has-icon-left">
-                                        <label for="Id-icon">Parentesco</label>
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>Seleccione</option>
-                                            <option value="1">Conyugue</option>
-                                            <option value="2">Madre</option>
-                                            <option value="3">Padre</option>
-                                            <option value="3">Hijo</option>
-                                            <option value="3">Hija</option>
-                                            <option value="3">Hermano</option>
-                                            <option value="3">Hermana</option>
-                                        </select>
-                                    </div>
 
-                                    <div class="form-group has-icon-left">
-                                        <label for="Id-icon">LLamada Emergencia</label>
-                                        <br>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                Si
-                                            </label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                            <label class="form-check-label" for="flexRadioDefault2">
-                                                No
-                                            </label>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-12">
-
-                                    <div class="form-group has-icon-left">
-                                        <label for="Apellido-icon">Nombre</label>
-                                        <div class="position-relative">
-                                            <input type="text" class="form-control" placeholder="Juan Antonio" id="Apellido-icon">
-                                            <div class="form-control-icon">
-                                                <i class="bi bi-geo"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group has-icon-left">
-                                        <label for="Correo-icon">Apellido</label>
-                                        <div class="position-relative">
-                                            <input type="text" class="form-control" placeholder="Perez Gomes" id="Correo-icon">
-                                            <div class="form-control-icon">
-                                                <i class="bi bi-envelope"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+            </div>
+            <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel16">Contactos Familiares
+                            </h4>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <i data-feather="x"></i>
+                            </button>
                         </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group has-icon-left">
+                                        <label for="Id-icon">DUI Familiar</label>
+                                        <div class="position-relative">
+                                            <input type="text" class="form-control" placeholder="00000000-0" id="Id-icon">
+                                            <div class="form-control-icon">
+                                                <i class="bi bi-credit-card-2-front"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group has-icon-left">
+                                    <label for="Id-icon">Parentesco</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Seleccione</option>
+                                        <option value="1">Conyugue</option>
+                                        <option value="2">Madre</option>
+                                        <option value="3">Padre</option>
+                                        <option value="3">Hijo</option>
+                                        <option value="3">Hija</option>
+                                        <option value="3">Hermano</option>
+                                        <option value="3">Hermana</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group has-icon-left">
+                                    <label for="Id-icon">LLamada Emergencia</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Si
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            No
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+
+                                <div class="form-group has-icon-left">
+                                    <label for="Apellido-icon">Nombre</label>
+                                    <div class="position-relative">
+                                        <input type="text" class="form-control" placeholder="Juan Antonio" id="Apellido-icon">
+                                        <div class="form-control-icon">
+                                            <i class="bi bi-geo"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group has-icon-left">
+                                    <label for="Correo-icon">Apellido</label>
+                                    <div class="position-relative">
+                                        <input type="text" class="form-control" placeholder="Perez Gomes" id="Correo-icon">
+                                        <div class="form-control-icon">
+                                            <i class="bi bi-envelope"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                         <div class="modal-footer">
                             <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
                                 <i class="bx bx-x d-block d-sm-none"></i>
@@ -347,8 +349,203 @@
                     </div>
                 </div>
             </div>
-            <!--FIN DEL MODAL PARA REGISTRO DE CONTACTOS-->
-            <!--login form Modal -->
+            <div class="modal fade text-left" id="md_promocion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h4 class="modal-title white" id="myModalLabel16">Promocion
+                            </h4>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <i data-feather="x"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+
+                                    <div class="form-group has-icon-left">
+                                        <label for="Id-icon">Dui del personal</label>
+                                        <select class="choices form-select">
+
+                                            <option value="square">Seleccione...</option>
+                                            <option value="square">[05580999-7]JUAN ANTONIO QUESADA</option>
+                                            <option value="rectangle">[05580339-1] RIGOBERTO JOSUE GONZALES</option>
+                                            <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
+
+                                        </select>
+                                    </div>
+                                    <?php
+                                    $cont = date('Y');
+                                    ?>
+                                    <div class="form-group has-icon-left">
+                                        <label for="Id-icon">Año de promocion</label>
+                                        <select class="form-select">
+                                            <?php while ($cont >= 1950) { ?>
+                                                <option value="<?php echo ($cont); ?>"><?php echo ($cont); ?></option>
+                                            <?php $cont = ($cont - 1);
+                                            } ?>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group has-icon-left">
+                                        <label for="Apellido-icon">Numero de promocion</label>
+                                        <div class="position-relative">
+                                            <input type="text" class="form-control" placeholder="Ingrese numero de promocion" id="Apellido-icon">
+                                            <div class="form-control-icon">
+                                                <i class="bi bi-credit-card-2-front"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-icon-left">
+                                        <label for="Id-icon">Nivel</label>
+                                        <select class="form-select">
+                                            <option value="square">Seleccione...</option>
+                                            <option value="square">Opcion 1</option>
+                                            <option value="square">Opcion 2</option>
+                                            <option value="square">Opcion 3</option>
+
+
+                                        </select>
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
+                                <i class="bx bx-x d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">Cancelar</span>
+                            </button>
+                            <button type="button" class="btn btn-primary ml-1" onclick="validarCampos()">
+                                <i class="bx bx-check d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">Registrar</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade text-left" id="md_enfermedad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h4 class="modal-title white" id="myModalLabel16">Enfermedades
+                            </h4>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <i data-feather="x"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+
+                                        <div class="form-group has-icon-left">
+                                            <label for="Id-icon">Dui del personal</label>
+                                            <select class="choices form-select">
+
+                                                <option value="square">Seleccione...</option>
+                                                <option value="square">[05580999-7]JUAN ANTONIO QUESADA</option>
+                                                <option value="rectangle">[05580339-1] RIGOBERTO JOSUE GONZALES</option>
+                                                <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
+
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group has-icon-left">
+                                            <label for="Correo-icon">Fecha de deteccion</label>
+                                            <div class="position-relative">
+                                                <?php $hoy = getdate(); ?>
+                                                <input type="date" max="<?php $hoy = date("Y-m-d");
+                                                                        echo $hoy; ?>" class="form-control" placeholder="" id="Id-icon">
+
+                                                <div class="form-control-icon">
+                                                    <i class="bi bi-calendar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-icon-left">
+
+
+
+                                            <label for="Id-icon">Enfermedad</label>
+                                            <div class="input-group">
+                                                <select class="form-select">
+                                                    <option value="square">Seleccione...</option>
+                                                    <option value="square">Opcion 1</option>
+                                                    <option value="square">Opcion 2</option>
+                                                    <option value="square">Opcion 3</option>
+                                                </select>
+                                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#md_addenfermedad" type="button" id="inputGroupFileAddon04">Agregar</button>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group has-icon-left">
+                                            <label for="Id-icon">Vigencia de enfermedad</label>
+                                            <br>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    En vigencia
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    No esta en vigencia
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group has-icon-left">
+                                            <label for="Apellido-icon">Documentacion</label>
+                                            <div class="position-relative">
+                                                <input class="form-control" type="file" id="formFile">
+                                                <div class="form-control-icon">
+                                                    <i class="bi bi-archive"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
+                                <i class="bx bx-x d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">Cancelar</span>
+                            </button>
+                            <button type="button" class="btn btn-primary ml-1" onclick="validarCampos()">
+                                <i class="bx bx-check d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">Registrar</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="modal fade text-left" id="inlineForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel33" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                     <div class="modal-content">
@@ -386,7 +583,6 @@
                     </div>
                 </div>
             </div>
-            <!--Fin de modal registro telefono-->
 
             <div class="modal fade text-left w-100" id="completeModalMantenimiento" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-ms" role="document">
@@ -417,6 +613,75 @@
                                 <i class="bx bx-check d-block d-sm-none"></i>
                                 <span class="d-none d-sm-block">Registrar</span>
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade text-left" id="md_oni" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h4 class="modal-title white" id="myModalLabel16">Oni
+                            </h4>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <i data-feather="x"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="">
+
+                                    <div class="form-group has-icon-left">
+                                        <label for="Id-icon">Dui del personal</label>
+                                        <select class="choices form-select">
+
+                                            <option value="square">Seleccione...</option>
+                                            <option value="square">[05580999-7]JUAN ANTONIO QUESADA</option>
+                                            <option value="rectangle">[05580339-1] RIGOBERTO JOSUE GONZALES</option>
+                                            <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group has-icon-left">
+                                        <label for="Apellido-icon">ONI</label>
+                                        <div class="position-relative">
+                                            <input type="text" class="form-control" placeholder="Ingrese numero de oni" id="Apellido-icon">
+                                            <div class="form-control-icon">
+                                                <i class="bi bi-credit-card-2-front"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-icon-left">
+                                        <label for="Id-icon">Categoria</label>
+                                        <select class="choices form-select">
+                                            <option value="square">Seleccione...</option>
+                                            <option value="square">Categoria 1</option>
+                                            <option value="square">Categoria 2</option>
+                                            <option value="square">Categoria 3</option>
+
+
+                                        </select>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
+                                <i class="bx bx-x d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">Cancelar</span>
+                            </button>
+                            <button type="button" class="btn btn-primary ml-1" onclick="validarCampos()">
+                                <i class="bx bx-check d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">Registrar</span>
+                            </button>
+
                         </div>
                     </div>
                 </div>
@@ -470,6 +735,30 @@
                                             <tr>
                                                 <td>Cortez Carmona</td>
                                                 <td>Josue Daniel</td>
+                                                <td>076 4820 8838</td>
+                                                <td>
+                                                    <span class="badge bg-success">Active</span>
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lesle Henriquez</td>
+                                                <td>Willian Fernando</td>
+                                                <td>076 4820 8838</td>
+                                                <td>
+                                                    <span class="badge bg-success">Active</span>
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rodriguez Alas </td>
+                                                <td>Edgard Eduardo</td>
                                                 <td>076 4820 8838</td>
                                                 <td>
                                                     <span class="badge bg-success">Active</span>
