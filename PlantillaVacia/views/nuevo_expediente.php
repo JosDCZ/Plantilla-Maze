@@ -32,6 +32,8 @@
             <?php include 'modal/md_especialidadGusta.php'; ?>
             <?php include 'modal/md_discapacidad.php'; ?>
             <?php include 'modal/modal_armas.php'; ?>
+            <?php include 'modal/modal_lic_armas.php'; ?>
+            <?php include 'modal/modal_lic_conducir.php'; ?>
             <div class="page-title">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last">
@@ -468,7 +470,8 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_promocion" class="btn btn-outline-primary">Promoción</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_armas" class="btn btn-outline-primary">Arma</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Teléfonos</button>
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Licencias</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_lic_armas" class="btn btn-outline-primary">Licencia Arma</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_lic_conducir" class="btn btn-outline-primary">Licencias Conducir</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Educación</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-outline-primary">Habilidades</button>

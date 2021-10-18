@@ -58,8 +58,6 @@
                                 <option value="square">Opcion 1</option>
                                 <option value="square">Opcion 2</option>
                                 <option value="square">Opcion 3</option>
-
-
                             </select>
                         </div>
 
