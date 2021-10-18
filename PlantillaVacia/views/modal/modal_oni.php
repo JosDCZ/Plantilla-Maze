@@ -15,7 +15,7 @@
                                 <div class="row">
                                     <div class="">
                                         
-                                        <div class="form-group has-icon-left">
+                                        <!-- <div class="form-group has-icon-left">
                                             <label for="Id-icon">Dui del personal</label>
                                             <select class="choices form-select">
 
@@ -25,8 +25,20 @@
                                                         <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
                                                         
                                             </select>
+                                        </div> -->
+                                        <div class="form-group has-icon-left">
+                                            <label for="Apellido-icon">DUI del personal</label>
+                                            <div class="position-relative">
+                                                <input type="text" class="form-control" placeholder="12345679-0" id="Apellido-icon">
+                                                <div class="form-control-icon">
+                                                    <i class="bi bi-credit-card-2-front"></i>
+                                                </div>
+                                                
+                                            </div>
+                                            <!-- aqui se obtendia el nombre del policia atravez de su dui -->
+                                            <input type="text" readonly="readonly" class="form-control" value="Nombre del personal" id="Apellido-icon">
                                         </div>
-
+                                        
                                         <div class="form-group has-icon-left">
                                             <label for="Apellido-icon">ONI</label>
                                             <div class="position-relative">
