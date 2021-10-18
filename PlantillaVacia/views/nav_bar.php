@@ -3,7 +3,7 @@
     <div class="sidebar-header p-0 mt-4">
         <div class="d-flex justify-content-center">
             <div class="logo">
-                <a href="index.php"><img src="assets/images/logo/pnc.png" alt="logo" style="height: 5rem;"></a>
+                <a href="index.php"><img src="../assets/images/logo/pnc.png" alt="logo" style="height: 5rem;"></a>
             </div>
 
 

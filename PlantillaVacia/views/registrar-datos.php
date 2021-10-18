@@ -32,7 +32,7 @@
                             <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <!-- <img  src="assets/images/logo/pnc.png" class="d-block w-100" alt="..."> -->
+                                        <!-- <img  src="../assets/images/logo/pnc.png" class="d-block w-100" alt="..."> -->
                                         <div class="d-block W-100">
                                             <h5>Datos personales</h5><br />
                                             <div class="row">
@@ -230,7 +230,7 @@
 
                                             <div class="row">
                                                 <div class="col-md-5" style="text-align: center">
-                                                    <img src="assets/images/logo/usuario.png" class="img-thumbnail" alt="...">
+                                                    <img src="../assets/images/logo/usuario.png" class="img-thumbnail" alt="...">
                                                     <div class="form-group has-icon-left">
                                                         <label>Nombre: </label>
                                                         <div class="position-relative">
@@ -274,7 +274,7 @@
                                     </div>
 
                                     <div class="carousel-item">
-                                        <img src="assets/images/logo/pnc.png" class="d-block w-100" alt="...">
+                                        <img src="../assets/images/logo/pnc.png" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
 
