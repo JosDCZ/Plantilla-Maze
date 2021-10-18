@@ -5,7 +5,7 @@
 
         <?php $page = 'home';
         include 'nav_bar.php';  ?>
-        <?php include 'navbar_horizontal.php';  ?>
+        <?php include 'navbar-horizontal.php';  ?>
     </div>
     <div id="main">
 
@@ -148,37 +148,57 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-xl-4">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4>Ultimos movimientos</h4>
-                                </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="d-flex align-items-center">
-                                                <svg class="bi text-primary" width="32" height="32" fill="blue" style="width:10px">
-                                                    <use xlink:href="assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                                </svg>
-                                                <h5 class="mb-0 ms-3">Europe</h5>
+
+                        <div class="row">
+                            <div class="col-12 col-xl-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4>Ultimos movimientos</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="d-flex align-items-center">
+                                                    <svg class="bi text-primary" width="32" height="32" fill="blue" style="width:10px">
+                                                        <use xlink:href="../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                    </svg>
+                                                    <h5 class="mb-0 ms-3">Europe</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <h5 class="mb-0">862</h5>
+                                            </div>
+                                            <div class="col-12">
+                                                <div id="chart-europe"></div>
                                             </div>
                                         </div>
-                                        <div class="col-6">
-                                            <h5 class="mb-0">862</h5>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="d-flex align-items-center">
+                                                    <svg class="bi text-success" width="32" height="32" fill="blue" style="width:10px">
+                                                        <use xlink:href="../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                    </svg>
+                                                    <h5 class="mb-0 ms-3">America</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <h5 class="mb-0">375</h5>
+                                            </div>
+                                            <div class="col-12">
+                                                <div id="chart-america"></div>
+                                            </div>
                                         </div>
-                                        <div class="col-12">
-                                            <div id="chart-europe"></div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="d-flex align-items-center">
-                                                <svg class="bi text-success" width="32" height="32" fill="blue" style="width:10px">
-                                                    <use xlink:href="assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
-                                                </svg>
-                                                <h5 class="mb-0 ms-3">America</h5>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="d-flex align-items-center">
+                                                    <svg class="bi text-danger" width="32" height="32" fill="blue" style="width:10px">
+                                                        <use xlink:href="../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                    </svg>
+                                                    <h5 class="mb-0 ms-3">Indonesia</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <h5 class="mb-0">1025</h5>
                                             </div>
                                         </div>
                                         <div class="col-6">
@@ -206,49 +226,50 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-xl-8">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4>Latest Comments</h4>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table table-hover table-lg">
-                                            <thead>
-                                                <tr>
-                                                    <th>Name</th>
-                                                    <th>Comment</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="col-3">
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-md">
-                                                                <img src="assets/images/faces/5.jpg">
+                            <div class="col-12 col-xl-8">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4>Latest Comments</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover table-lg">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Comment</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="col-3">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="avatar avatar-md">
+                                                                    <img src="../assets/images/faces/5.jpg">
+                                                                </div>
+                                                                <p class="font-bold ms-3 mb-0">Si Cantik</p>
                                                             </div>
-                                                            <p class="font-bold ms-3 mb-0">Si Cantik</p>
-                                                        </div>
-                                                    </td>
-                                                    <td class="col-auto">
-                                                        <p class=" mb-0">Congratulations on your graduation!</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="col-3">
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-md">
-                                                                <img src="assets/images/faces/2.jpg">
+                                                        </td>
+                                                        <td class="col-auto">
+                                                            <p class=" mb-0">Congratulations on your graduation!</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="col-3">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="avatar avatar-md">
+                                                                    <img src="../assets/images/faces/2.jpg">
+                                                                </div>
+                                                                <p class="font-bold ms-3 mb-0">Si Ganteng</p>
                                                             </div>
                                                             <p class="font-bold ms-3 mb-0">Si Ganteng</p>
-                                                        </div>
-                                                    </td>
-                                                    <td class="col-auto">
-                                                        <p class=" mb-0">Wow amazing design! Can you make another tutorial for this design?</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
+                                        </div>
+                                        </td>
+                                        <td class="col-auto">
+                                            <p class=" mb-0">Wow amazing design! Can you make another tutorial for this design?</p>
+                                        </td>
+                                        </tr>
+                                        </tbody>
                                         </table>
                                     </div>
                                 </div>
@@ -261,7 +282,7 @@
                             <div class="card-body py-4 px-5">
                                 <div class="d-flex align-items-center">
                                     <div class="avatar avatar-xl">
-                                        <img src="assets/images/faces/1.jpg" alt="Face 1">
+                                        <img src="../assets/images/faces/1.jpg" alt="Face 1">
                                     </div>
                                     <div class="ms-3 name">
                                         <h5 class="font-bold">Adminin</h5>
@@ -277,7 +298,7 @@
                             <div class="card-content pb-4">
                                 <div class="recent-message d-flex px-4 py-3">
                                     <div class="avatar avatar-lg">
-                                        <img src="assets/images/faces/4.jpg">
+                                        <img src="../assets/images/faces/4.jpg">
                                     </div>
                                     <div class="name ms-4">
                                         <h5 class="mb-1">Hank Schrader</h5>
@@ -286,7 +307,7 @@
                                 </div>
                                 <div class="recent-message d-flex px-4 py-3">
                                     <div class="avatar avatar-lg">
-                                        <img src="assets/images/faces/5.jpg">
+                                        <img src="../assets/images/faces/5.jpg">
                                     </div>
                                     <div class="name ms-4">
                                         <h5 class="mb-1">Dean Winchester</h5>
@@ -295,7 +316,7 @@
                                 </div>
                                 <div class="recent-message d-flex px-4 py-3">
                                     <div class="avatar avatar-lg">
-                                        <img src="assets/images/faces/1.jpg">
+                                        <img src="../assets/images/faces/1.jpg">
                                     </div>
                                     <div class="name ms-4">
                                         <h5 class="mb-1">John Dodol</h5>
@@ -316,6 +337,7 @@
                                 <div id="chart-visitors-profile"></div>
                             </div>
                         </div> -->
+
                 <!-- </div> -->
             </section>
             <div class="modal fade text-left w-100" id="completeModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16" aria-hidden="true">
@@ -330,7 +352,7 @@
                         </div>
                         <div class="modal-body ">
                             <div class="card align-items-center" style="width: auto;">
-                                <img src="assets/images/logo/usuario.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
+                                <img src="../assets/images/logo/usuario.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
                                 <div class="card-body ">
                                     <h5 class="card-title">Daniela Sarai Osorio Rivas</h5>
                                     <p class="card-text ">Edad : 45 años</p>
@@ -339,7 +361,6 @@
                                     <p class="card-text"> Fecha de Ingreso a la PNC : 10/10/1998</p>
                                     <p class="card-text"> Tiempo Laborado : 15 años</p>
                                     <p class="card-tex "> Observaciones : Se concedio una<br /> suspensión voluntaria sin goce de<br /> sueldo por un perido de 5 años</p>
-
                                 </div>
                             </div>
                         </div>
@@ -357,7 +378,7 @@
                 </div>
             </div>
         </div>
-        <script src="assets/vendors/simple-datatables/simple-datatables.js"></script>
+        <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
         <script>
             // Simple Datatable
             let table1 = document.querySelector('#table1');

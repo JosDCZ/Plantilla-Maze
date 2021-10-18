@@ -6,7 +6,7 @@
         <?php $page = 'exp';
         $item = '1';
         include 'nav_bar.php';  ?>
-        <?php include 'navbar_horizontal.php';  ?>
+        <?php include 'navbar-horizontal.php';  ?>
     </div>
     <div id="main">
         <header class="mb-3">
@@ -400,7 +400,7 @@
                         </div>
                         <div class="modal-body ">
                             <div class="card align-items-center" style="width: auto;">
-                                <img src="assets/images/logo/mantenimiento.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
+                                <img src="../assets/images/logo/mantenimiento.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
                                 <div class="card-body ">
                                     <h5 class="card-title">En Mantenimiento</h5>
 
@@ -511,7 +511,7 @@
                     </div>
 
             </section>
-            <script src="assets/vendors/simple-datatables/simple-datatables.js"></script>
+            <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
             <script>
                 // Simple Datatable
                 let table1 = document.querySelector('#table1');
