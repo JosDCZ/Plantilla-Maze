@@ -1,11 +1,11 @@
-<!DOCTYPE html> 
+!DOCTYPE html> 
 <html> 
  
-<div class="modal fade text-left" id="modaldiscapacidad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true"> 
+<div class="modal fade text-left" id="modalafp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true"> 
                     <div class="modal-dialog modal-dialog-centered" role="document"> 
                         <div class="modal-content"> 
                             <div class="modal-header bg-primary"> 
-                                <h4 class="modal-title white" id="myModalLabel16">Discapacidad 
+                                <h4 class="modal-title white" id="myModalLabel16">AFP
                                 </h4> 
                                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"> 
                                     <i data-feather="x"></i> 
@@ -27,35 +27,16 @@
                                             </select> 
                                         </div> 
                                         <div class="form-group has-icon-left"> 
-                                            <label for="Id-icon">Discapacidad</label> 
+                                            <label for="Id-icon">AFP</label> 
                                             <select class="choices form-select"> 
  
                                                         <option value="square">Seleccione...</option> 
-                                                        <option value="square">Física o Motora</option> 
-                                                        <option value="rectangle">Sensorial</option> 
-                                                        <option value="rombo">Intelectual</option>
-                                                        <option value="rombo">Psíquica</option> 
+                                                        <option value="square">AFP-Confía</option> 
+                                                        <option value="rectangle">AFP-Crecer</option> 
+                                                        <option value="rombo">ASAFONDOS</option>
+                                                        <option value="rombo">Otra</option> 
                                                          
                                             </select> 
-                                        </div> 
- 
-                                        <div class="form-group has-icon-left"> 
-                                            <label for="Apellido-icon">Fecha Inicio</label> 
-                                            <div class="position-relative"> 
-                                                <input type="date" class="form-control" id="Apellido-icon"> 
-                                                <div class="form-control-icon"> 
-                                                    <i class="bi bi-credit-card-2-front"></i> 
-                                                </div> 
-                                            </div> 
-                                        </div> 
-                                        <div class="form-group has-icon-left"> 
-                                            <label for="Apellido-icon">Fecha Inicio</label> 
-                                            <div class="position-relative"> 
-                                                <input type="date" class="form-control" id="Apellido-icon"> 
-                                                <div class="form-control-icon"> 
-                                                    <i class="bi bi-credit-card-2-front"></i> 
-                                                </div> 
-                                            </div> 
                                         </div> 
                                     </div> 
                                 </div> 

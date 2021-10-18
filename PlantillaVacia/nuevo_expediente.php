@@ -242,7 +242,11 @@
                 
                 <!--Modal Discapacidad-->
                 <?php include 'md_discapacidad.php'; ?> 
-                <!--fin modal discapacidad-->
+                <!--Modal AFP-->
+                <?php include 'md_afp.php'; ?>
+                <!--Modal AFP-->
+                <?php include 'md_especialidadGusta.php'; ?> 
+            
 
                 <!--MODAL PARA REGISTRO DE CONTACTOS-->
                 <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
@@ -431,8 +435,8 @@
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Licencias</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Educación</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
-                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Habilidades</button>
-                                        <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">AFP</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-outline-primary">Habilidades</button> 
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalafp" class="btn btn-outline-primary">AFP</button> 
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#large" class="btn btn-outline-primary">Familiares</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-outline-primary">Discapacidades</button> 
 
