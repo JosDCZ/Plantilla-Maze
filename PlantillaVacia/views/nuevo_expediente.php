@@ -31,6 +31,7 @@
             <?php include 'modal/md_afp.php'; ?>
             <?php include 'modal/md_especialidadGusta.php'; ?>
             <?php include 'modal/md_discapacidad.php'; ?>
+            <?php include 'modal/md_educacion.php'; ?>
             <div class="page-title">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last">
@@ -445,7 +446,7 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Arma</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Teléfonos</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Licencias</button>
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Educación</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_educacion" class="btn btn-outline-primary">Educación</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-outline-primary">Habilidades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-outline-primary">Enfermedades</button>
