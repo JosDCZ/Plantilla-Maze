@@ -239,6 +239,11 @@
                         </div>
                     </div>
                 </div>
+                
+                <!--Modal Discapacidad-->
+                <?php include 'md_discapacidad.php'; ?> 
+                <!--fin modal discapacidad-->
+
                 <!--MODAL PARA REGISTRO DE CONTACTOS-->
                 <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
@@ -429,6 +434,7 @@
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Habilidades</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">AFP</button>
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#large" class="btn btn-outline-primary">Familiares</button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-outline-primary">Discapacidades</button> 
 
                                     </div>
                                 </div>
