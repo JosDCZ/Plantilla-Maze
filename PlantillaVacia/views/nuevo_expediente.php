@@ -34,6 +34,7 @@
             <?php include 'modal/modal_armas.php'; ?>
             <?php include 'modal/modal_lic_armas.php'; ?>
             <?php include 'modal/modal_lic_conducir.php'; ?>
+            <?php include 'modal/modal_equipo_computo.php'; ?>
             <div class="page-title">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last">
@@ -475,6 +476,7 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Educación</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-outline-primary">Habilidades</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_equipo_computo" class="btn btn-outline-primary">Equipo de computo</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-outline-primary">Enfermedades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-outline-primary">Discapacidades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalafp" class="btn btn-outline-primary">AFP</button>
