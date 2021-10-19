@@ -16,17 +16,10 @@
         </header>
 
         <div class="page-heading">
-            <!-- MODAL PARA ONI -->
+            <!-- MODALES-->
             <?php include 'modal/modal_oni.php'; ?>
-
-            <!-- MODAL PARA PROMOCION -->
-
             <?php include 'modal/modal_promocion.php'; ?>
-
-            <!-- MODAL PARA ENFERMEDAD -->
             <?php include 'modal/modal_enfermedad.php'; ?>
-
-            <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
             <?php include 'modal/modal_combo_enfermedades.php'; ?>
             <?php include 'modal/md_afp.php'; ?>
             <?php include 'modal/md_especialidadGusta.php'; ?>
@@ -35,6 +28,11 @@
             <?php include 'modal/modal_lic_armas.php'; ?>
             <?php include 'modal/modal_lic_conducir.php'; ?>
             <?php include 'modal/modal_equipo_computo.php'; ?>
+            <?php include 'modal/md_educacion.php'; ?>
+            <?php include 'modal/md_instituciones.php'; ?>
+            <?php include 'modal/md_exp_laboral.php'; ?>
+            <?php include 'modal/md_telefono.php'; ?>
+            <?php include 'modal/md_trabajo.php'; ?>
             <div class="page-title">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last">
@@ -259,31 +257,29 @@
                         </div>
                     </div>
                 </div>
-<<<<<<<<< Temporary merge branch 1
-                
-                <!--Modal Discapacidad-->
-                <?php include 'md_discapacidad.php'; ?> 
-                <!--Modal AFP-->
-                <?php include 'md_afp.php'; ?>
-                <!--Modal AFP-->
-                <?php include 'md_especialidadGusta.php'; ?> 
-            
+                <<<<<<<<< Temporary merge branch 1 <!--Modal Discapacidad-->
+                    <?php include 'md_discapacidad.php'; ?>
+                    <!--Modal AFP-->
+                    <?php include 'md_afp.php'; ?>
+                    <!--Modal AFP-->
+                    <?php include 'md_especialidadGusta.php'; ?>
 
-=========
-                <!-- MODAL PARA ONI -->
-                <?php include 'modal_oni.php'; ?>
 
-                <!-- MODAL PARA PROMOCION -->
+                    =========
+                    <!-- MODAL PARA ONI -->
+                    <?php include 'modal_oni.php'; ?>
 
-                <?php include 'modal_promocion.php'; ?>
+                    <!-- MODAL PARA PROMOCION -->
 
-                <!-- MODAL PARA ENFERMEDAD -->
-                <?php include 'modal_enfermedad.php'; ?>
+                    <?php include 'modal_promocion.php'; ?>
 
-                <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
-                <?php include 'modal_combo_enfermedades.php'; ?>
->>>>>>>>> Temporary merge branch 2
-                <!--MODAL PARA REGISTRO DE CONTACTOS-->
+                    <!-- MODAL PARA ENFERMEDAD -->
+                    <?php include 'modal_enfermedad.php'; ?>
+
+                    <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
+                    <?php include 'modal_combo_enfermedades.php'; ?>
+                    >>>>>>>>> Temporary merge branch 2
+                    <!--MODAL PARA REGISTRO DE CONTACTOS-->
 
             </div>
             <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
@@ -470,11 +466,11 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_oni" class="btn btn-outline-primary">ONI</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_promocion" class="btn btn-outline-primary">Promoción</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_armas" class="btn btn-outline-primary">Arma</button>
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Teléfonos</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_cel" class="btn btn-outline-primary">Teléfonos</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_lic_armas" class="btn btn-outline-primary">Licencia Arma</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_lic_conducir" class="btn btn-outline-primary">Licencias Conducir</button>
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Educación</button>
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#completeModalMantenimiento" class="btn btn-outline-primary">Experiencia laboral</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_educacion" class="btn btn-outline-primary">Educación</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_exp" class="btn btn-outline-primary">Experiencia laboral</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-outline-primary">Habilidades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_equipo_computo" class="btn btn-outline-primary">Equipo de computo</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-outline-primary">Enfermedades</button>
