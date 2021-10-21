@@ -46,6 +46,33 @@
 
                 </ul>
             </li>
+
+
+
+            <li class="sidebar-item  has-sub <?php if ($page == 'unifor') {
+                                                    echo 'active';
+                                                } ?>">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi-person-square"></i>
+                    <span><b>Uniformes</b></span>
+                </a>
+                <ul class="submenu  <?php if ($page == 'unifor') {
+                                        echo 'active';
+                                    } ?>">
+                    <li class="submenu-item <?php if ($item == '3') {
+                                                echo 'active';
+                                            } ?>  ">
+                        <a href="asignacion_uniformes.php"><b>Asignar Uniformes</b></a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="error404.php"><b>Uniformes</b></a>
+                    </li>
+
+                </ul>
+            </li>
+
+
+
             <li class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-truck"></i>
