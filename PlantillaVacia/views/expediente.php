@@ -8,11 +8,6 @@
         <?php include 'navbar-horizontal.php';  ?>
     </div>
     <div id="main">
-        <header class="mb-3">
-            <a href="#" class="burger-btn d-block d-xl-none">
-                <i class="bi bi-justify fs-3"></i>
-            </a>
-        </header>
 
         <div class="page-content">
             <div class="col-md-12">
@@ -94,6 +89,9 @@
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
                                     </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Familia</a>
+                                    </li>
                                 </ul>
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -149,6 +147,17 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
+                                            ornare interdum
+                                            viverra. Sed ut odio velit. Aenean eu diam
+                                            dictum nibh rhoncus mattis quis ac risus. Vivamus eu congue ipsum.
+                                            Maecenas id
+                                            sollicitudin ex. Cras in ex vestibulum,
+                                            posuere orci at, sollicitudin purus. Morbi mollis elementum enim, in
+                                            cursus sem
+                                            placerat ut.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="familia" role="tabpanel" aria-labelledby="contact-tab">
                                         <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
                                             ornare interdum
                                             viverra. Sed ut odio velit. Aenean eu diam

@@ -2,10 +2,11 @@
 
 <body>
     <div id="app">
-
+        <!-- <div id="sidebar" class="active"> -->
         <?php $page = 'home';
         include 'nav_bar.php';  ?>
         <?php include 'navbar-horizontal.php';  ?>
+        <!-- </div> -->
     </div>
     <div id="main">
 

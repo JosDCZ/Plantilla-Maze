@@ -2,19 +2,14 @@
 
 <body>
     <div id="app">
-        <!-- <div id="sidebar" class="active">-->
+
         <?php $page = 'exp';
         $item = '1';
         include 'nav_bar.php';  ?>
         <?php include 'navbar-horizontal.php';  ?>
+        <!-- </div> -->
     </div>
     <div id="main">
-        <header class="mb-3">
-            <a href="#" class="burger-btn d-block d-xl-none">
-                <i class="bi bi-justify fs-3"></i>
-            </a>
-        </header>
-
         <div class="page-heading">
             <!-- MODALES-->
             <?php include 'modal/modal_oni.php'; ?>

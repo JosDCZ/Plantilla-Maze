@@ -3694,7 +3694,7 @@ fieldset:disabled .btn {
 }
 .nav-tabs .nav-item {
   background-color: #f2f7ff;
-  width: 33.33%;
+  width: 25%;
 }
 
 .nav-tabs .nav-item.show .nav-link,
