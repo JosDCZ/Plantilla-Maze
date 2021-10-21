@@ -24,34 +24,30 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-auto">
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-12 order-md-1 order-last">
-                                    <h4>Crear tipo de vehiculos</h4>
+                                    <h5>Crear tipo de vehiculos</h5>
                                 </div>
                             </div>
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <div class="form-group has-icon-left">
-                                        <label for="tipo-vehiculo-icon">Tipo de vehiculo</label>
-                                        <div class="row">
-                                            <div class="col-9">
-                                                <div class="position-relative">
-                                                    <input type="text" class="form-control" placeholder="Motocicleta" id="tipo-vehiculo-icon">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-truck"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-3">
-                                                <button type="button" class="btn btn-primary" onclick="validarCampos()">
-                                                    <span class="d-none d-sm-block">Guardar</span>
-                                                </button>
+                            <div class="form-group has-icon-left">
+                                <label for="tipo-vehiculo-icon">Tipo de vehiculo</label>
+                                <div class="d-flex justify-content-start">
+                                    <div>
+                                        <div class="position-relative">
+                                            <input type="text" class="form-control" placeholder="Motocicleta" id="tipo-vehiculo-icon">
+                                            <div class="form-control-icon">
+                                                <i class="bi bi-truck"></i>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <button type="button" class="btn btn-primary" onclick="validarCampos()">
+                                            <span class="d-none d-sm-block">Guardar</span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-10">
+            <div class="col-12">
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body">
