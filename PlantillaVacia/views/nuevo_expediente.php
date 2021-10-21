@@ -257,30 +257,6 @@
                         </div>
                     </div>
                 </div>
-                <<<<<<<<< Temporary merge branch 1 <!--Modal Discapacidad-->
-                    <?php include 'md_discapacidad.php'; ?>
-                    <!--Modal AFP-->
-                    <?php include 'md_afp.php'; ?>
-                    <!--Modal AFP-->
-                    <?php include 'md_especialidadGusta.php'; ?>
-
-
-                    =========
-                    <!-- MODAL PARA ONI -->
-                    <?php include 'modal_oni.php'; ?>
-
-                    <!-- MODAL PARA PROMOCION -->
-
-                    <?php include 'modal_promocion.php'; ?>
-
-                    <!-- MODAL PARA ENFERMEDAD -->
-                    <?php include 'modal_enfermedad.php'; ?>
-
-                    <!-- MODAL PARA MODAL INTERNO DE ENFERMEDAD -->
-                    <?php include 'modal_combo_enfermedades.php'; ?>
-                    >>>>>>>>> Temporary merge branch 2
-                    <!--MODAL PARA REGISTRO DE CONTACTOS-->
-
             </div>
             <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
