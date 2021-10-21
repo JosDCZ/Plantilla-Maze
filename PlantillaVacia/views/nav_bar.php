@@ -53,12 +53,8 @@
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="error404.php"><b>Nuevo expediente</b></a>
+                        <a href="vehiculos_asignaciones.php"><b>Vehiculos y asignaciones</b></a>
                     </li>
-                    <li class="submenu-item ">
-                        <a href="error404.php"><b>Mantenimiento de expediente</b></a>
-                    </li>
-
                 </ul>
             </li>
             <li class="sidebar-item  has-sub">
