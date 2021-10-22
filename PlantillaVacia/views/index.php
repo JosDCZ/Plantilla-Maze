@@ -2,10 +2,11 @@
 
 <body>
     <div id="app">
-
+        <!-- <div id="sidebar" class="active"> -->
         <?php $page = 'home';
         include 'nav_bar.php';  ?>
         <?php include 'navbar-horizontal.php';  ?>
+        <!-- </div> -->
     </div>
     <div id="main">
 
@@ -93,84 +94,6 @@
 
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title">Horizontal Navs</h5>
-                            </div>
-                            <div class="card-body">
-                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                        <p>
-                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-                                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-                                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-                                        </p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                                    <div class="card card-body">
-                                                        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                                    <div class="card card-body">
-                                                        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                        Integer interdum diam eleifend metus lacinia, quis gravida eros mollis.
-                                        Fusce non sapien
-                                        sit amet magna dapibus
-                                        ultrices. Morbi tincidunt magna ex, eget faucibus sapien bibendum non. Duis
-                                        a mauris ex.
-                                        Ut finibus risus sed massa
-                                        mattis porta. Aliquam sagittis massa et purus efficitur ultricies. Integer
-                                        pretium dolor
-                                        at sapien laoreet ultricies.
-                                        Fusce congue et lorem id convallis. Nulla volutpat tellus nec molestie
-                                        finibus. In nec
-                                        odio tincidunt eros finibus
-                                        ullamcorper. Ut sodales, dui nec posuere finibus, nisl sem aliquam metus, eu
-                                        accumsan
-                                        lacus felis at odio. Sed lacus
-                                        quam, convallis quis condimentum ut, accumsan congue massa. Pellentesque et
-                                        quam vel
-                                        massa pretium ullamcorper vitae eu
-                                        tortor.
-                                    </div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                        <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
-                                            ornare interdum
-                                            viverra. Sed ut odio velit. Aenean eu diam
-                                            dictum nibh rhoncus mattis quis ac risus. Vivamus eu congue ipsum.
-                                            Maecenas id
-                                            sollicitudin ex. Cras in ex vestibulum,
-                                            posuere orci at, sollicitudin purus. Morbi mollis elementum enim, in
-                                            cursus sem
-                                            placerat ut.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12">
 
                             <div class="card-body">
                                 <table class="table table-striped" id="table1">
@@ -222,6 +145,13 @@
                                     </tbody>
                                 </table>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+
+
                         </div>
                     </div>
 

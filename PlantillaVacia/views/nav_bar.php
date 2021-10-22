@@ -58,6 +58,9 @@
                     <li class="submenu-item ">
                         <a href="tipo_vehiculo.php"><b>Tipos de vehiculos</b></a>
                     </li>
+                    <li class="submenu-item ">
+                        <a href="estado_vehiculo.php"><b>Estados de vehiculos</b></a>
+                    </li>
                 </ul>
             </li>
             <li class="sidebar-item  has-sub">
