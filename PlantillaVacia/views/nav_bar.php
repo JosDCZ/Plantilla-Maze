@@ -55,6 +55,9 @@
                     <li class="submenu-item ">
                         <a href="vehiculos_asignaciones.php"><b>Vehiculos y asignaciones</b></a>
                     </li>
+                    <li class="submenu-item ">
+                        <a href="tipo_vehiculo.php"><b>Tipos de vehiculos</b></a>
+                    </li>
                 </ul>
             </li>
             <li class="sidebar-item  has-sub">
