@@ -503,7 +503,7 @@
                                                     <span class="badge bg-success">Active</span>
                                                 </td>
                                                 <td>
-                                                    <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                    <button class="btn btn-secondary"><a href="expediente.php"><i class="bi bi-pencil-square"></i></a></button>
 
                                                 </td>
                                             </tr>
