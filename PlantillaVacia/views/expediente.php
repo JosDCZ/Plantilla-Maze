@@ -351,7 +351,8 @@
                                             </div>
                                         </div>
                                     </div>
-
+            <!---------------------------------Telefonos---------------------------------------------------->
+                                    <?php include 'modal/md_telefono.php'; ?>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -378,7 +379,7 @@
                                                                         <td>Personal</td>
 
                                                                         <td>
-                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_cel" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
                                                                             <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
                                                                         </td>
@@ -388,7 +389,7 @@
                                                                         <td>Institucional</td>
 
                                                                         <td>
-                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_cel" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
                                                                             <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
                                                                         </td>
@@ -398,7 +399,7 @@
                                                                         <td>Casa</td>
 
                                                                         <td>
-                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_cel" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
                                                                             <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
                                                                         </td>
@@ -413,6 +414,9 @@
                                             </div>
                                         </div>
                                     </div>
+        
+           <!-----------------------------------Enfermedades-------------------------------------------------->
+                                    <?php include 'modal/modal_enfermedad.php'; ?>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -421,187 +425,63 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <table class="table table-borderless" id="formatoorden">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td width="150">
-                                                                <div class="form-group has-icon-left">
-                                                                    <!-- <label for="Correo-icon">Fecha de deteccion</label>-->
-                                                                    <div class="position-relative">
-                                                                        <?php $hoy = getdate(); ?>
-                                                                        <input type="date" max="<?php $hoy = date("Y-m-d");
-                                                                                                echo $hoy; ?>" class="form-control" placeholder="" id="Id-icon">
+                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Fecha Detección</th>
+                                                                        <th>Enfermedad</th>
+                                                                        <th>Vigencia</th>
+                                                                        <th>Documentacion</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>22/02/2021</td>
+                                                                        <td>Diabetes</td>
+                                                                        <td>Vigente</td>
+                                                                        <td>doc.pdf</td>
 
-                                                                        <div class="form-control-icon">
-                                                                            <i class="bi bi-calendar"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td width="200">
-                                                                <!--<label for="Id-icon">Enfermedad</label>-->
-                                                                <div class="input-group">
-                                                                    <select class="form-select">
-                                                                        <option value="square">Seleccione...</option>
-                                                                        <option value="square">Opcion 1</option>
-                                                                        <option value="square">Opcion 2</option>
-                                                                        <option value="square">Opcion 3</option>
-                                                                    </select>
-                                                                </div>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>22/02/2020</td>
+                                                                        <td>Artritis</td>
+                                                                        <td>Vigente</td>
+                                                                        <td>doc1.pdf</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>22/02/2019</td>
+                                                                        <td>Asma</td>
+                                                                        <td>Vigente</td>
+                                                                        <td>doc11.pdf</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                               
                                             </div>
-                                            </td>
-                                            <td width="300">
-                                                <div class="form-group has-icon-left">
-                                                    <!--<label for="Id-icon">Vigencia</label>-->
-                                                    <br>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                        <label class="form-check-label" for="flexRadioDefault1">
-                                                            Vigente
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                        <label class="form-check-label" for="flexRadioDefault2">
-                                                            No Vigente
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td width="250">
-                                                <div class="form-group has-icon-left">
-                                                    <!--<label for="Apellido-icon">Documentacion</label>-->
-                                                    <div class="position-relative">
-                                                        <input class="form-control" type="file" id="formFile">
-                                                        <div class="form-control-icon">
-                                                            <i class="bi bi-archive"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!-- <label for="Correo-icon">Fecha de deteccion</label>-->
-                                                        <div class="position-relative">
-                                                            <?php $hoy = getdate(); ?>
-                                                            <input type="date" max="<?php $hoy = date("Y-m-d");
-                                                                                    echo $hoy; ?>" class="form-control" placeholder="" id="Id-icon">
-
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-calendar"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <!-- <label for="Id-icon">Enfermedad</label>-->
-                                                    <div class="input-group">
-                                                        <select class="form-select">
-                                                            <option value="square">Seleccione...</option>
-                                                            <option value="square">Opcion 1</option>
-                                                            <option value="square">Opcion 2</option>
-                                                            <option value="square">Opcion 3</option>
-                                                        </select>
-                                                    </div>
                                         </div>
-                                        </td>
-                                        <td>
-                                            <div class="form-group has-icon-left">
-                                                <!-- <label for="Id-icon">Vigencia</label>-->
-                                                <br>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                        Vigente
-                                                    </label>
-                                                </div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault2">
-                                                        No Vigente
-                                                    </label>
-                                                </div>
-
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="form-group has-icon-left">
-                                                <!--  <label for="Apellido-icon">Documentacion</label>-->
-                                                <div class="position-relative">
-                                                    <input class="form-control" type="file" id="formFile">
-                                                    <div class="form-control-icon">
-                                                        <i class="bi bi-archive"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="form-group has-icon-left">
-                                                    <!--<label for="Correo-icon">Fecha de deteccion</label>-->
-                                                    <div class="position-relative">
-                                                        <?php $hoy = getdate(); ?>
-                                                        <input type="date" max="<?php $hoy = date("Y-m-d");
-                                                                                echo $hoy; ?>" class="form-control" placeholder="" id="Id-icon">
-
-                                                        <div class="form-control-icon">
-                                                            <i class="bi bi-calendar"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <!--<label for="Id-icon">Enfermedad</label>-->
-                                                <div class="input-group">
-                                                    <select class="form-select">
-                                                        <option value="square">Seleccione...</option>
-                                                        <option value="square">Opcion 1</option>
-                                                        <option value="square">Opcion 2</option>
-                                                        <option value="square">Opcion 3</option>
-                                                    </select>
-                                                </div>
                                     </div>
-                                    </td>
-                                    <td>
-                                        <div class="form-group has-icon-left">
-                                            <!--<label for="Id-icon">Vigencia</label>-->
-                                            <br>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                <label class="form-check-label" for="flexRadioDefault1">
-                                                    Vigente
-                                                </label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                <label class="form-check-label" for="flexRadioDefault2">
-                                                    No Vigente
-                                                </label>
-                                            </div>
-
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="form-group has-icon-left">
-                                            <!--<label for="Apellido-icon">Documentacion</label>-->
-                                            <div class="position-relative">
-                                                <input class="form-control" type="file" id="formFile">
-                                                <div class="form-control-icon">
-                                                    <i class="bi bi-archive"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    </tr>
-                                    </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-
+        <!-----------------------------Discapacidades-------------------------------------------------->
+                        <?php include 'modal/md_discapacidad.php'; ?>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -610,130 +490,37 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <table class="table table-borderless" id="formatoorden">
-                                        <tbody>
-                                            <tr>
-                                                <td width="300">
-                                                    <div class="form-group has-icon-left">
-                                                        <!--<label for="Id-icon">Discapacidad</label>-->
-                                                        <select class="choices form-select">
+                                <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Discapacidad</th>
+                                                                        <th>Fecha Inicio</th>
+                                                                        <th>Fecha Fin</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Sensorial</td>
+                                                                        <td>22/02/2019</td>
+                                                                        <td>22/02/2020</td>
 
-                                                            <option value="square">Seleccione...</option>
-                                                            <option value="square">Física o Motora</option>
-                                                            <option value="rectangle">Sensorial</option>
-                                                            <option value="rombo">Intelectual</option>
-                                                            <option value="rombo">Psíquica</option>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
-                                                        </select>
-                                                    </div>
-                                                </td>
-                                                <td width="300">
-                                                    <div class="form-group has-icon-left">
-                                                        <!--<label for="Apellido-icon">Fecha Inicio</label>-->
-                                                        <div class="position-relative">
-                                                            <input type="date" class="form-control" id="Apellido-icon">
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-credit-card-2-front"></i>
-                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </table> 
                                                         </div>
                                                     </div>
-                                                </td>
-                                                <td width="300">
-                                                    <div class="form-group has-icon-left">
-                                                        <!-- <label for="Apellido-icon">Fecha Fin</label>-->
-                                                        <div class="position-relative">
-                                                            <input type="date" class="form-control" id="Apellido-icon">
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-credit-card-2-front"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!-- <label for="Id-icon">Discapacidad</label>-->
-                                                        <select class="choices form-select">
-
-                                                            <option value="square">Seleccione...</option>
-                                                            <option value="square">Física o Motora</option>
-                                                            <option value="rectangle">Sensorial</option>
-                                                            <option value="rombo">Intelectual</option>
-                                                            <option value="rombo">Psíquica</option>
-
-                                                        </select>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!--<label for="Apellido-icon">Fecha Inicio</label>-->
-                                                        <div class="position-relative">
-                                                            <input type="date" class="form-control" id="Apellido-icon">
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-credit-card-2-front"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!-- <label for="Apellido-icon">Fecha Fin</label>-->
-                                                        <div class="position-relative">
-                                                            <input type="date" class="form-control" id="Apellido-icon">
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-credit-card-2-front"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!-- <label for="Id-icon">Discapacidad</label>-->
-                                                        <select class="choices form-select">
-
-                                                            <option value="square">Seleccione...</option>
-                                                            <option value="square">Física o Motora</option>
-                                                            <option value="rectangle">Sensorial</option>
-                                                            <option value="rombo">Intelectual</option>
-                                                            <option value="rombo">Psíquica</option>
-
-                                                        </select>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!--<label for="Apellido-icon">Fecha Inicio</label>-->
-                                                        <div class="position-relative">
-                                                            <input type="date" class="form-control" id="Apellido-icon">
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-credit-card-2-front"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="form-group has-icon-left">
-                                                        <!--<label for="Apellido-icon">Fecha Fin</label>-->
-                                                        <div class="position-relative">
-                                                            <input type="date" class="form-control" id="Apellido-icon">
-                                                            <div class="form-control-icon">
-                                                                <i class="bi bi-credit-card-2-front"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                                </div>
+                                            </div>
+                                        </div>
                 <!--fin de acordeon 1 area personal-->
+
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
