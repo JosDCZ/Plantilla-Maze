@@ -35,8 +35,8 @@
                             </div>
                             <div class="form-group has-icon-left">
                                 <label for="tipo-vehiculo-icon">Tipo de vehiculo</label>
-                                <div class="d-flex justify-content-start">
-                                    <div>
+                                <div class="d-flex flex-column flex-sm-row justify-content-start">
+                                    <div class="mb-2">
                                         <div class="position-relative">
                                             <input type="text" class="form-control" placeholder="Motocicleta" id="tipo-vehiculo-icon">
                                             <div class="form-control-icon">
@@ -44,9 +44,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="ms-3">
+                                    <div class="ms-sm-2">
                                         <button type="button" class="btn btn-primary" onclick="validarCampos()">
-                                            <span class="d-none d-sm-block">Guardar</span>
+                                            <span>Guardar</span>
                                         </button>
                                     </div>
                                 </div>
@@ -71,50 +71,50 @@
                                         <tr>
                                             <td>PICK UP</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>AUTOMOVIL</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>MICROBUS</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>CAMION</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>AMBULANCIA</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>COASTER</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>MOTOCICLETA</td>
                                             <td>
-                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-secondary"><i class="bi bi-trash"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-pencil-square"></i></button>
+                                                <button class="btn btn-secondary mb-1 mb-sm-0"><i class="bi bi-trash"></i></button>
                                             </td>
                                         </tr>
                                     </tbody>
