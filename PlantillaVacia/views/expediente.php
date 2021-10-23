@@ -101,7 +101,7 @@
                                     <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Licencias</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Educación</a>
+                                    <a class="nav-link" id="educacion-tab" data-bs-toggle="tab" href="#educacion" role="tab" aria-controls="educacion" aria-selected="false">Área académica</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Familia</a>
@@ -351,7 +351,7 @@
                                             </div>
                                         </div>
                                     </div>
-            <!---------------------------------Telefonos---------------------------------------------------->
+                                    <!---------------------------------Telefonos---------------------------------------------------->
                                     <?php include 'modal/md_telefono.php'; ?>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
@@ -414,8 +414,8 @@
                                             </div>
                                         </div>
                                     </div>
-        
-           <!-----------------------------------Enfermedades-------------------------------------------------->
+
+                                    <!-----------------------------------Enfermedades-------------------------------------------------->
                                     <?php include 'modal/modal_enfermedad.php'; ?>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
@@ -425,49 +425,134 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                            <table class="table table-striped" id="table1">
+                                                <table class="table table-striped" id="table1">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Fecha Detección</th>
+                                                            <th>Enfermedad</th>
+                                                            <th>Vigencia</th>
+                                                            <th>Documentacion</th>
+                                                            <th>Acciones</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>22/02/2021</td>
+                                                            <td>Diabetes</td>
+                                                            <td>Vigente</td>
+                                                            <td>doc.pdf</td>
+
+                                                            <td>
+                                                                <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>22/02/2020</td>
+                                                            <td>Artritis</td>
+                                                            <td>Vigente</td>
+                                                            <td>doc1.pdf</td>
+
+                                                            <td>
+                                                                <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>22/02/2019</td>
+                                                            <td>Asma</td>
+                                                            <td>Vigente</td>
+                                                            <td>doc11.pdf</td>
+
+                                                            <td>
+                                                                <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                            </td>
+                                                        </tr>
+
+
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-----------------------------Discapacidades-------------------------------------------------->
+                                    <?php include 'modal/md_discapacidad.php'; ?>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <h6 class="m-0">Discapacidades</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <table class="table table-striped" id="table1">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Discapacidad</th>
+                                                            <th>Fecha Inicio</th>
+                                                            <th>Fecha Fin</th>
+                                                            <th>Acciones</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Sensorial</td>
+                                                            <td>22/02/2019</td>
+                                                            <td>22/02/2020</td>
+
+                                                            <td>
+                                                                <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                            </td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--fin de acordeon 1 area personal-->
+
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <h6 class="m-0">ONI</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>Fecha Detección</th>
-                                                                        <th>Enfermedad</th>
-                                                                        <th>Vigencia</th>
-                                                                        <th>Documentacion</th>
+                                                                        <th>ONI</th>
+                                                                        <th>Fecha de asignación</th>
+                                                                        <th>Estado</th>
                                                                         <th>Acciones</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td>22/02/2021</td>
-                                                                        <td>Diabetes</td>
-                                                                        <td>Vigente</td>
-                                                                        <td>doc.pdf</td>
-
+                                                                        <td>E1563</td>
+                                                                        <td>13 / 01 / 2000</td>
                                                                         <td>
-                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
+                                                                            <span class="badge bg-success">Active</span>
                                                                         </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>22/02/2020</td>
-                                                                        <td>Artritis</td>
-                                                                        <td>Vigente</td>
-                                                                        <td>doc1.pdf</td>
-
                                                                         <td>
-                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>22/02/2019</td>
-                                                                        <td>Asma</td>
-                                                                        <td>Vigente</td>
-                                                                        <td>doc11.pdf</td>
-
-                                                                        <td>
-                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
                                                                             <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
                                                                         </td>
@@ -476,320 +561,361 @@
 
                                                                 </tbody>
                                                             </table>
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
-        <!-----------------------------Discapacidades-------------------------------------------------->
-                        <?php include 'modal/md_discapacidad.php'; ?>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <h6 class="m-0">Discapacidades</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <table class="table table-striped" id="table1">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Discapacidad</th>
-                                                                        <th>Fecha Inicio</th>
-                                                                        <th>Fecha Fin</th>
-                                                                        <th>Acciones</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>Sensorial</td>
-                                                                        <td>22/02/2019</td>
-                                                                        <td>22/02/2020</td>
-
-                                                                        <td>
-                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
-                                                                        </td>
-                                                                    </tr>
-
-                                                                </tbody>
-                                                            </table> 
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                <!--fin de acordeon 1 area personal-->
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <h6 class="m-0">Promoción</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
 
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h6 class="m-0">ONI</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="card">
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Promoción</th>
+                                                                        <th>Año de promoción</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1221563</td>
+                                                                        <td>13 / 01 / 2000</td>
 
-                                        <div class="card-content">
-                                            <div class="card-body">
-                                                <table class="table table-striped" id="table1">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>ONI</th>
-                                                            <th>Fecha de asignación</th>
-                                                            <th>Estado</th>
-                                                            <th>Acciones</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>E1563</td>
-                                                            <td>13 / 01 / 2000</td>
-                                                            <td>
-                                                                <span class="badge bg-success">Active</span>
-                                                            </td>
-                                                            <td>
-                                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+                                                                        <td>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
-                                                            </td>
-                                                        </tr>
+                                                                        </td>
+                                                                    </tr>
 
 
-                                                    </tbody>
-                                                </table>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <h6 class="m-0">Arma</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Marca</th>
+                                                                        <th>Tipo</th>
+                                                                        <th>Serie</th>
+                                                                        <th>Modelo</th>
+                                                                        <th>Calibre</th>
+                                                                        <th>Balistica</th>
+                                                                        <th>Fecha asignación</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Beretta</td>
+                                                                        <td>Pistola semiautomatica</td>
+                                                                        <td>S1020</td>
+                                                                        <td>Beretta 92</td>
+                                                                        <td>9 mm</td>
+                                                                        <td>50 m</td>
+                                                                        <td>13 / 01 / 2000</td>
+
+                                                                        <td>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                <h6 class="m-0">Licencia arma</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <h6>En mantenimiento</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                <h6 class="m-0">Licencia conducir</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Numero licencia</th>
+                                                                        <th>Tipo de licencia</th>
+                                                                        <th>Fecha renovación</th>
+                                                                        <th>permiso</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1221563</td>
+                                                                        <td>Liviana</td>
+                                                                        <td>13 / 01 / 2010</td>
+                                                                        <td>Denegado</td>
+
+                                                                        <td>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="educacion" role="tabpanel" aria-labelledby="educacion-tab">
+                                <div class="accordion" id="accordionExample">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                <h6 class="m-0">Académica</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse snow" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <?php include 'modal/md_educacion.php'; ?>
+                                                <div class="card">
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Titulo obtenido</th>
+                                                                        <th>Institución</th>
+                                                                        <th>Fecha de inicio</th>
+                                                                        <th>Fecha de fin</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Tecnico en informatica empresarial</td>
+                                                                        <td>Infoavance</td>
+                                                                        <td>13 / 01 / 2010</td>
+                                                                        <td>21 / 12 / 2010</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_educacion" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>Licenciatura en Administracíon de empresas</td>
+                                                                        <td>Universidad Panamericana</td>
+                                                                        <td>13 / 02 / 2011</td>
+                                                                        <td>7 / 04 / 2017</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_educacion" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <h6 class="m-0">Experiencia Laboral </h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+                                                    <div class="card-content">
+                                                        <?php include 'modal/md_exp_laboral.php'; ?>
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Trabajo realizado</th>
+                                                                        <th>Fecha de inicio</th>
+                                                                        <th>Fecha de fin</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Gerente de Cooperativa Integral</td>
+                                                                        <td>18 / 01 / 2018</td>
+                                                                        <td>21 / 12 / 2020</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_exp" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headinFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                                <h6 class="m-0">Habilidades</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headinFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+                                                    <?php include 'modal/md_especialidadGusta.php'; ?>
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Especialidad</th>
+                                                                        <th>Fecha Asignación</th>
+                                                                        <th>Tipo Especialidad</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Grupo espcial de operaciones</td>
+                                                                        <td>7 / 06 / 2021</td>
+                                                                        <td>La desempeña</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <h6 class="m-0">Equipo de computo</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <?php include 'modal/modal_equipo_computo.php'; ?>
+                                                <div class="card">
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Nombre equipo de computación</th>
+                                                                        <th>Equipo de computación</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>A0009-3</td>
+                                                                        <td>Alienware Aurora R9</td>
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_equipo_computo" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <h6 class="m-0">Promoción</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="card">
-
-                                        <div class="card-content">
-                                            <div class="card-body">
-                                                <table class="table table-striped" id="table1">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Promoción</th>
-                                                            <th>Año de promoción</th>
-                                                            <th>Acciones</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>1221563</td>
-                                                            <td>13 / 01 / 2000</td>
-
-                                                            <td>
-                                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
-                                                            </td>
-                                                        </tr>
-
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="tab-pane fade" id="familia" role="tabpanel" aria-labelledby="contact-tab">
+                                <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
+                                    ornare interdum
+                                    viverra. Sed ut odio velit. Aenean eu diam
+                                    dictum nibh rhoncus mattis quis ac risus. Vivamus eu congue ipsum.
+                                    Maecenas id
+                                    sollicitudin ex. Cras in ex vestibulum,
+                                    posuere orci at, sollicitudin purus. Morbi mollis elementum enim, in
+                                    cursus sem
+                                    placerat ut.</p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h6 class="m-0">Arma</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="card">
-
-                                        <div class="card-content">
-                                            <div class="card-body">
-                                                <table class="table table-striped" id="table1">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Marca</th>
-                                                            <th>Tipo</th>
-                                                            <th>Serie</th>
-                                                            <th>Modelo</th>
-                                                            <th>Calibre</th>
-                                                            <th>Balistica</th>
-                                                            <th>Fecha asignación</th>
-                                                            <th>Acciones</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>Beretta</td>
-                                                            <td>Pistola semiautomatica</td>
-                                                            <td>S1020</td>
-                                                            <td>Beretta 92</td>
-                                                            <td>9 mm</td>
-                                                            <td>50 m</td>
-                                                            <td>13 / 01 / 2000</td>
-
-                                                            <td>
-                                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
-                                                            </td>
-                                                        </tr>
-
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <h6 class="m-0">Licencia arma</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <h6>En mantenimiento</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    <h6 class="m-0">Licencia conducir</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="card">
-
-                                        <div class="card-content">
-                                            <div class="card-body">
-                                                <table class="table table-striped" id="table1">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Numero licencia</th>
-                                                            <th>Tipo de licencia</th>
-                                                            <th>Fecha renovación</th>
-                                                            <th>permiso</th>
-                                                            <th>Acciones</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>1221563</td>
-                                                            <td>Liviana</td>
-                                                            <td>13 / 01 / 2010</td>
-                                                            <td>Denegado</td>
-
-                                                            <td>
-                                                                <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
-                                                            </td>
-                                                        </tr>
-
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                </div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="accordion" id="accordionExample">
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <h6 class="m-0">Promoción</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h6 class="m-0">Licencia arma</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h6 class="m-0">Licencias conducir</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h6 class="m-0">ONI</h6>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="familia" role="tabpanel" aria-labelledby="contact-tab">
-                    <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
-                        ornare interdum
-                        viverra. Sed ut odio velit. Aenean eu diam
-                        dictum nibh rhoncus mattis quis ac risus. Vivamus eu congue ipsum.
-                        Maecenas id
-                        sollicitudin ex. Cras in ex vestibulum,
-                        posuere orci at, sollicitudin purus. Morbi mollis elementum enim, in
-                        cursus sem
-                        placerat ut.</p>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </div>
 
     <?php include 'footer.php'; ?>
