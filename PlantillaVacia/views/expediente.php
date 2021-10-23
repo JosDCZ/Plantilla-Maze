@@ -904,40 +904,34 @@
                                 </div>
                             </div>
                             <!-- familia -->
-                            <br>
+                            
                             <div class="tab-pane fade" id="familia" role="tabpanel" aria-labelledby="familia-tab">
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
-                                        <!-- Cabecera del primer acordeon -->
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                <h6 class="m-0">Permisos</h6>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="card">
+
+                                        <div class="card">
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tb_familia">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>ONI</th>
-                                                                        <th>Fecha de asignación</th>
-                                                                        <th>Estado</th>
+                                                                        <th>DUI</th>
+                                                                        <th>Parentesco</th>
+                                                                        <th>Nombre</th>
+                                                                        <th>Telefono</th>
                                                                         <th>Acciones</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td>E1563</td>
-                                                                        <td>13 / 01 / 2000</td>
+                                                                        <td>07580111-1</td>
+                                                                        <td>Esposa</td>
+                                                                        <td>Ana Maria Cruz de Vega</td>
+                                                                        <td>7890-9988</td>
+                                                                    
                                                                         <td>
-                                                                            <span class="badge bg-success">Active</span>
-                                                                        </td>
-                                                                        <td>
-                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                           <button type="button" data-bs-toggle="modal" data-bs-target="#md_familiares" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
                                                                             <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
 
                                                                         </td>
@@ -949,60 +943,18 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                <h6 class="m-0">Sanciones</h6>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="card">
-
-                                                    <div class="card-content">
-                                                        <div class="card-body">
-                                                            <table class="table table-striped" id="tablesanciones">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Promoción</th>
-                                                                        <th>Año de promoción</th>
-                                                                        <th>Acciones</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>1221563</td>
-                                                                        <td>13 / 01 / 2000</td>
-
-                                                                        <td>
-                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
-
-                                                                        </td>
-                                                                    </tr>
-
-
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
                                     
                                     
                                     
 
                                 </div>
                             </div>
+                            <?php include 'modal/modal_familiares.php'; ?>
                             <!------------------------ permisos y sanciones ---------------------------->
 
                             <br>
-
                             <div class="tab-pane fade" id="permisos" role="tabpanel" aria-labelledby="permisos-tab">
                                 <div class="accordion" id="accordionExample">
 
@@ -1022,7 +974,7 @@
                                                             <table class="table table-striped" id="tb_permisos">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>DUI solicitante</th>
+                                                                        
                                                                         <th>Fecha de inicio</th>
                                                                         <th>Fecha de fin</th>
                                                                         <th>Estado</th>
@@ -1033,7 +985,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td>05110999-6</td>
+                                                                        
                                                                         <td>13/01/2021 :22:20</td>
                                                                         <td>13/02 /2021 :10:05</td>
                                                                         <td>
@@ -1072,7 +1024,7 @@
                                                             <table class="table table-striped" id="tb_sanciones">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>DUI solicitante</th>
+                                                                       
                                                                         <th>Fecha de inicio</th>
                                                                         <th>Fecha de fin</th>
                                                                         <th>Sancion</th>
@@ -1081,7 +1033,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td>05110999-1</td>
+                                                                        
                                                                         <td>13/01/2021 :22:20</td>
                                                                         <td>13/02 /2021 :10:05</td>
                                                                         <td>Grave</td>
@@ -1109,6 +1061,8 @@
                             </div>
                             <!-- FIN DE PERMISOS Y SANCIONES -->
                             <?php include 'modal/modal_permisos.php'; ?>
+                            <?php include 'modal/modal_combo_motivo.php'; ?>
+
                             
                         </div>
                         <?php include 'modal/modal_sancion.php'; ?>
@@ -1123,8 +1077,10 @@
                 // Simple Datatable
                 let tb_permisos = document.querySelector('#tb_permisos');
                 let tb_sanciones = document.querySelector('#tb_sanciones');
+                let tb_familia = document.querySelector('#tb_familia');
                 let dataTable_p = new simpleDatatables.DataTable(tb_permisos);
                 let dataTable_s = new simpleDatatables.DataTable(tb_sanciones);
+                let dataTable_f = new simpleDatatables.DataTable(tb_familia);
             </script>       
     <?php include 'footer.php'; ?>
     </div>
