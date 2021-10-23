@@ -104,7 +104,10 @@
                                     <a class="nav-link" id="educacion-tab" data-bs-toggle="tab" href="#educacion" role="tab" aria-controls="educacion" aria-selected="false">Área académica</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Familia</a>
+                                    <a class="nav-link" id="familia-tab" data-bs-toggle="tab" href="#familia" role="tab" aria-controls="familia" aria-selected="false">Familia</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="permisos-tab" data-bs-toggle="tab" href="#permisos" role="tab" aria-controls="permisos" aria-selected="false">Permisos y sanciones</a>
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
@@ -365,7 +368,7 @@
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tb_telefono">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Número de teléfono</th>
@@ -425,7 +428,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <table class="table table-striped" id="table1">
+                                                <table class="table table-striped" id="tableenfermedades">
                                                     <thead>
                                                         <tr>
                                                             <th>Fecha Detección</th>
@@ -900,25 +903,232 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="familia" role="tabpanel" aria-labelledby="contact-tab">
-                                <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
-                                    ornare interdum
-                                    viverra. Sed ut odio velit. Aenean eu diam
-                                    dictum nibh rhoncus mattis quis ac risus. Vivamus eu congue ipsum.
-                                    Maecenas id
-                                    sollicitudin ex. Cras in ex vestibulum,
-                                    posuere orci at, sollicitudin purus. Morbi mollis elementum enim, in
-                                    cursus sem
-                                    placerat ut.</p>
+                            <!-- familia -->
+                            <br>
+                            <div class="tab-pane fade" id="familia" role="tabpanel" aria-labelledby="familia-tab">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <!-- Cabecera del primer acordeon -->
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <h6 class="m-0">Permisos</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="table1">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>ONI</th>
+                                                                        <th>Fecha de asignación</th>
+                                                                        <th>Estado</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>E1563</td>
+                                                                        <td>13 / 01 / 2000</td>
+                                                                        <td>
+                                                                            <span class="badge bg-success">Active</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <h6 class="m-0">Sanciones</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="tablesanciones">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Promoción</th>
+                                                                        <th>Año de promoción</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1221563</td>
+                                                                        <td>13 / 01 / 2000</td>
+
+                                                                        <td>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+
+                                </div>
                             </div>
+                            <!------------------------ permisos y sanciones ---------------------------->
+
+                            <br>
+
+                            <div class="tab-pane fade" id="permisos" role="tabpanel" aria-labelledby="permisos-tab">
+                                <div class="accordion" id="accordionExample">
+
+                                    <div class="accordion-item">
+                                        <!-- Cabecera del primer acordeon -->
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <h6 class="m-0">Permisos</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="tb_permisos">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>DUI solicitante</th>
+                                                                        <th>Fecha de inicio</th>
+                                                                        <th>Fecha de fin</th>
+                                                                        <th>Estado</th>
+                                                                        <th>Tipo de permiso</th>
+                                                                        <th>Motivo</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>05110999-6</td>
+                                                                        <td>13/01/2021 :22:20</td>
+                                                                        <td>13/02 /2021 :10:05</td>
+                                                                        <td>
+                                                                            <span class="badge bg-success">Aprovado</span>
+                                                                        </td>
+                                                                        <td>Con goce de sueldo</td>
+                                                                        <td>Urgencia medica</td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_permisos" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <h6 class="m-0">Sanciones</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="tb_sanciones">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>DUI solicitante</th>
+                                                                        <th>Fecha de inicio</th>
+                                                                        <th>Fecha de fin</th>
+                                                                        <th>Sancion</th>
+                                                                        <th>Acciones</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>05110999-1</td>
+                                                                        <td>13/01/2021 :22:20</td>
+                                                                        <td>13/02 /2021 :10:05</td>
+                                                                        <td>Grave</td>
+
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal" data-bs-target="#md_sancion" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+
+                                </div>
+                            </div>
+                            <!-- FIN DE PERMISOS Y SANCIONES -->
+                            <?php include 'modal/modal_permisos.php'; ?>
+                            
                         </div>
+                        <?php include 'modal/modal_sancion.php'; ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    
+     <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
+            <script>
+                // Simple Datatable
+                let tb_permisos = document.querySelector('#tb_permisos');
+                let tb_sanciones = document.querySelector('#tb_sanciones');
+                let dataTable_p = new simpleDatatables.DataTable(tb_permisos);
+                let dataTable_s = new simpleDatatables.DataTable(tb_sanciones);
+            </script>       
     <?php include 'footer.php'; ?>
     </div>
-
+    
 </body>
+<!-- includes de modales -->
+
