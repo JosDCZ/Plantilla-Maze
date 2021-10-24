@@ -42,7 +42,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
-                            <h4 class="modal-title white" id="myModalLabel16">Asignacion accesorios placas y ONIS
+                            <h4 class="modal-title white" id="myModalLabel16">Asignacion accesorios
                             </h4>
                             <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                 <i data-feather="x"></i>
@@ -176,10 +176,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <label for="nombre">Nombre</label>
-                            <input class="form-control" type="text" name="nombre" disabled>
-                        </div>
+                     
 
                         <div class="col-md-6">
                             <div class="form-group has-icon-left">
@@ -191,18 +188,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-md-6">
-                        <div class="form-group has-icon-left">
-                                        <label for="Nombre-icon">Observacion</label>
-                                        <div class="position-relative">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                            <div class="form-control-icon">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    </div>
+                        </div>  
                             </div>
                         </div>
                         <div class="modal-footer">
