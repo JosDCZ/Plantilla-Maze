@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-<div class="modal fade text-left" id="md_armas" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel20" aria-hidden="true">
+<div class="modal fade text-left" id="md_especialidades" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel20" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h4 class="modal-title white" id="myModalLabel20">Arma
+                <h4 class="modal-title white" id="myModalLabel20">Especialidades
                 </h4>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <i data-feather="x"></i>
                 </button>
             </div>
             <div class="modal-body">
+
+
                 <div class="form-group has-icon-left">
                     <label for="Apellido-icon">DUI del personal</label>
                     <div class="position-relative">
@@ -25,27 +27,15 @@
                     <input type="text" readonly="readonly" class="form-control" value="Nombre del personal" id="Apellido-icon">
                 </div>
 
-                <div class="form-group has-icon-left">
-                    <label for="Id-icon">Arma</label>
-                    <select class="choices form-select">
-
+                <label for="Id-icon">Especialidades</label>
+                <div class="input-group">
+                    <select class="form-select">
                         <option value="square">Seleccione...</option>
-                        <option value="square">Ametralladoras</option>
-                        <option value="rectangle">Fusiles de francotirador</option>
-                        <option value="rombo">Fusiles de asalto</option>
-
+                        <option value="square">Mantenimiento de Computadoras</option>
+                        <option value="square">Electricidad doméstica</option>
+                        <option value="square">Mecánica automotriz</option>
                     </select>
-                </div>
-
-
-                <div class="form-group has-icon-left">
-                    <label for="Apellido-icon">Fecha de asignación</label>
-                    <div class="position-relative">
-                        <input type="date" class="form-control" placeholder="####-###-#####-##-#" id="Serie-icon">
-                        <div class="form-control-icon">
-                            <i class="bi bi-card-heading"></i>
-                        </div>
-                    </div>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#md_addespecialida" type="button" id="inputGroupFileAddon04">Agregar</button>
                 </div>
 
             </div>

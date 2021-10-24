@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<div class="modal fade text-left" id="modaldiscapacidad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+<div class="modal fade text-left" id="modaldiscapacidad" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
@@ -16,15 +16,16 @@
                     <div class="">
 
                         <div class="form-group has-icon-left">
-                            <label for="Id-icon">Dui Empleado</label>
-                            <select class="choices form-select">
+                            <label for="Apellido-icon">DUI del personal</label>
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="12345679-0" id="Apellido-icon">
+                                <div class="form-control-icon">
+                                    <i class="bi bi-credit-card-2-front"></i>
+                                </div>
 
-                                <option value="square">Seleccione...</option>
-                                <option value="square">[05580999-7]JUAN ANTONIO QUESADA</option>
-                                <option value="rectangle">[05580339-1] RIGOBERTO JOSUE GONZALES</option>
-                                <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
-
-                            </select>
+                            </div>
+                            <!-- aqui se obtendia el nombre del policia atravez de su dui -->
+                            <input type="text" readonly="readonly" class="form-control" value="Nombre del personal" id="Apellido-icon">
                         </div>
                         <div class="form-group has-icon-left">
                             <label for="Id-icon">Discapacidad</label>

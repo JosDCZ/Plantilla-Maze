@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<div class="modal fade text-left" id="md_addenfermedad" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+<div class="modal fade text-left" id="md_addespecialida" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h4 class="modal-title white" id="myModalLabel16">Registro de nueva enfermedad
+                <h4 class="modal-title white" id="myModalLabel16">Especialidades
                 </h4>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <i data-feather="x"></i>
@@ -18,25 +18,15 @@
 
 
                         <div class="form-group has-icon-left">
-                            <label for="Apellido-icon">Nombre de enfermedad</label>
+                            <label for="Apellido-icon">Especialidad</label>
                             <div class="position-relative">
-                                <input type="text" class="form-control" placeholder="Ingrese nombre de enfermedad" id="Apellido-icon">
+                                <input type="text" class="form-control" placeholder="Ingrese nombre la especialidad" id="Apellido-icon">
                                 <div class="form-control-icon">
-                                    <i class="bi bi-eyedropper"></i>
+                                    <i class="bi bi-list-check"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group has-icon-left">
-                            <label for="Id-icon">Tipo de enfermedad</label>
-                            <select class="form-select">
-                                <option value="square">Seleccione...</option>
-                                <option value="square">Cronica</option>
-                                <option value="square">Curable</option>
 
-
-
-                            </select>
-                        </div>
 
 
 
