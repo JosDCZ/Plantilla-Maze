@@ -3,7 +3,8 @@
 <body>
     <div id="app">
 
-        <?php $page = 'home';
+        <?php $page = 'exp';
+        $item = '1';
         include 'nav_bar.php';  ?>
         <?php include 'navbar-horizontal.php';  ?>
         <?php include 'modal/modal_enfermedad.php'; ?>
@@ -19,8 +20,9 @@
         <div class="page-content">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h5 class="card-title">Ficha Personal</h5>
+                    <div class="card-header d-flex align-items-center ">
+                        <a href="nuevo_expediente.php" class="btn btn-white"><i class="bi bi-x bi-middle"></i></a>
+                        <h5 class="card-title m-0 ps-2 ">Ficha Personal</h5>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -29,19 +31,19 @@
                             </div>
                             <div class="col-md-9 col-12">
                                 <div class="row p-0">
-                                    <div class="col-md-2 col-12 d-flex pe-0">
-                                        <div class="position-relative  p-1">
-                                            <input type="text" class="form-control p-0 bg-white" placeholder="E1563" id="oni" disabled="true">
+                                    <div class="col-md-2 col-12 d-flex pe-0 b-0">
+                                        <div class="position-relative  p-1 ">
+                                            <input type="text" class="form-control p-0 bg-white text-end border-0" value="E1563" id="oni" disabled>
 
                                         </div>
                                     </div>
                                     <div class="col-md-5 col-12 d-flex justify-content-center p-0">
                                         <div class="position-relative  p-1" style="width:100%">
                                             <!-- <input type="text" class="form-control" placeholder="Activo" id="estado"> -->
-                                            <input type="text" class="form-control p-0 bg-white" placeholder="Juan Carlos Ramirez Valencia" id="oni" disabled>
+                                            <input type="text" class="form-control p-0 bg-white border-0 text-center" value="Juan Carlos Ramirez Valencia" id="oni" disabled readonly>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 col-12 d-flex justify-content-center p-0">
+                                    <div class="col-md-2 col-12 d-flex justify-content-center p-0 ">
                                         <div class="position-relative  p-1" style="width:100%">
                                             <!-- <input type="text" class="form-control" placeholder="Activo" id="estado"> -->
                                             <select class="form-select bg-success text-white " aria-label="Default select example" disabled="true">
@@ -71,25 +73,25 @@
 
                                     <div class="col-md-2 col-12 d-flex pe-0">
                                         <div class="position-relative  p-1">
-                                            <input type="text" class="form-control p-0 bg-white" placeholder="45 años" id="edad" disabled="true">
+                                            <input type="text" class="form-control p-0 bg-white text-end  border-0" value="45 años" id="edad" disabled="true">
 
                                         </div>
                                     </div>
-                                    <div class="col-md-5 col-12 d-flex justify-content-center p-0">
+                                    <div class="col-md-5 col-12 d-flex justify-content-center p-0 ">
                                         <div class="position-relative  p-1" style="width:100%">
                                             <!-- <input type="text" class="form-control" placeholder="Activo" id="estado"> -->
-                                            <input type="text" class="form-control p-0 bg-white" placeholder="Sub-delegacion San Vicente" id="lugar" disabled>
+                                            <input type="text" class="form-control p-0 bg-white border-0 text-center" value="Sub-delegacion San Vicente" id="lugar" disabled>
                                         </div>
                                     </div>
                                     <div class="col-md-2 col-12 d-flex justify-content-center p-0">
                                         <div class="position-relative  p-1" style="width:100%">
                                             <!-- <input type="text" class="form-control" placeholder="Activo" id="estado"> -->
-                                            <input type="text" class="form-control p-0 bg-white" placeholder="Agente" id="categoria" disabled>
+                                            <input type="text" class="form-control p-0 bg-white border-0 text-center" value="Agente" id="categoria" disabled>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-12 d-flex justify-content-center ps-0">
                                         <div class="position-relative  p-1" style="width:100%">
-                                            <input type="text" class="form-control p-0 bg-white" placeholder="Masculino" id="categoria" disabled>
+                                            <input type="text" class="form-control p-0 bg-white border-0 text-center" value="Masculino" id="categoria" disabled>
 
                                         </div>
                                     </div>

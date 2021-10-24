@@ -34,6 +34,7 @@
             <?php include 'modal/modal_combo_especialidad.php'; ?>
             <?php include 'modal/md_capacitaciones.php'; ?>
             <?php include 'modal/md_combo_capa.php'; ?>
+            <?php include 'modal/md_puesto_trabajo.php'; ?>
 
             <div class="page-title">
                 <div class="row">
@@ -237,7 +238,6 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_cel" class="btn btn-outline-primary">Teléfonos</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_lic_armas" class="btn btn-outline-primary">Licencia Arma</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_lic_conducir" class="btn btn-outline-primary">Licencias Conducir</button>
-
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_exp" class="btn btn-outline-primary">Experiencia laboral</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalhabilidad" class="btn btn-outline-primary">Habilidades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_especialidades" class="btn btn-outline-primary">Especialidades</button>
@@ -245,6 +245,8 @@
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_enfermedad" class="btn btn-outline-primary">Enfermedades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modaldiscapacidad" class="btn btn-outline-primary">Discapacidades</button>
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalafp" class="btn btn-outline-primary">AFP</button>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#md_puesto" class="btn btn-outline-primary">Puesto de trabajo</button>
+
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#md_familiares" class="btn btn-outline-primary">Familiares</button>
 
 

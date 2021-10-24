@@ -1872,6 +1872,7 @@ progress {
 .form-control[readonly] {
   background-color: #e9ecef;
   opacity: 1;
+  color: black;
 }
 .form-control::file-selector-button {
   -webkit-margin-end: 0.75rem;
