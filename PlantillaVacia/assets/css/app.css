@@ -893,6 +893,7 @@
 .nav-tabs .nav-link {
   border: none;
 }
+
 .nav-tabs .nav-link:hover {
   border: none;
   text-shadow: 0 0 2px rgba(67, 94, 190, 0.3);
@@ -901,6 +902,7 @@
   border: none;
   color: #435ebe;
   position: relative;
+  height: 100%;
 }
 .nav-tabs .nav-link.active:after {
   background-color: #435ebe;
