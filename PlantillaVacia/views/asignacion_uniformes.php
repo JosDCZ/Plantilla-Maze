@@ -19,6 +19,7 @@
 
             <!-- MODALES-->
             <?php include 'modal/md_uniforme.php'; ?>
+            <?php include 'modal/md_asignar_accesorios.php'; ?>
 
 
       
