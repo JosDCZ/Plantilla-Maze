@@ -744,6 +744,8 @@
 }
 #sidebar.active .sidebar-wrapper {
   left: 0;
+  position: fixed;
+  z-index: 200;
 }
 #sidebar:not(.active) .sidebar-wrapper {
   left: -300px;
@@ -918,6 +920,16 @@
   height: 55px;
   padding-right: 0.6rem;
 }
+.navbar.active {
+  background-color: #f3f4f6;
+  height: 48px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 .navbar .navbar-brand img {
   height: 1.5rem;
 }
