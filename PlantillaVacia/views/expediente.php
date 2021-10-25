@@ -107,13 +107,13 @@
                                     <a class="nav-link" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Área Personal</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Licencias</a>
+                                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Área institucional</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="educacion-tab" data-bs-toggle="tab" href="#educacion" role="tab" aria-controls="educacion" aria-selected="false">Área académica</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="familia-tab" data-bs-toggle="tab" href="#familia" role="tab" aria-controls="familia" aria-selected="false">Familia</a>
+                                    <a class="nav-link" id="familia-tab" data-bs-toggle="tab" href="#familia" role="tab" aria-controls="familia" aria-selected="false">Familiares</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="permisos-tab" data-bs-toggle="tab" href="#permisos" role="tab" aria-controls="permisos" aria-selected="false">Permisos y sanciones</a>
@@ -131,7 +131,7 @@
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    <table class="table table-borderless" id="formatoorden">
+                                                    <table class="table table-borderless" id="tableDatos">
                                                         <tbody>
                                                             <tr>
                                                                 <td>
@@ -377,7 +377,7 @@
 
                                                         <div class="card-content">
                                                             <div class="card-body">
-                                                                <table class="table table-striped" id="tb_telefono">
+                                                                <table class="table table-striped" id="tableCel">
                                                                     <thead>
                                                                         <tr>
                                                                             <th>Número de teléfono</th>
@@ -437,7 +437,7 @@
                                             </h2>
                                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    <table class="table table-striped" id="tableenfermedades">
+                                                    <table class="table table-striped" id="tableEnfe">
                                                         <thead>
                                                             <tr>
                                                                 <th>Fecha Detección</th>
@@ -502,7 +502,7 @@
                                             </h2>
                                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    <table class="table table-striped" id="table1">
+                                                    <table class="table table-striped" id="tableDis">
                                                         <thead>
                                                             <tr>
                                                                 <th>Discapacidad</th>
@@ -542,13 +542,13 @@
                                                 <h6 class="m-0">ONI</h6>
                                             </button>
                                         </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionOni">
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionOni">
                                             <div class="accordion-body">
                                                 <div class="card">
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableOni">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>ONI</th>
@@ -592,7 +592,7 @@
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tablePromocion">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Promoción</th>
@@ -633,7 +633,7 @@
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableArma">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Marca</th>
@@ -655,6 +655,48 @@
                                                                         <td>9 mm</td>
                                                                         <td>50 m</td>
                                                                         <td>13 / 01 / 2000</td>
+
+                                                                        <td>
+                                                                            <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                                            <button class="btn btn-danger"><i class="bi bi-x-circle"></i></button>
+
+                                                                        </td>
+                                                                    </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTrabajo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrabajo" aria-expanded="false" aria-controls="collapseTrabajo">
+                                                <h6 class="m-0">Lugar de trabajo</h6>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTrabajo" class="accordion-collapse collapse" aria-labelledby="headingTrabajo" data-bs-parent="#accordionOni">
+                                            <div class="accordion-body">
+                                                <div class="card">
+
+                                                    <div class="card-content">
+                                                        <div class="card-body">
+                                                            <table class="table table-striped" id="tableTrabajo">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Puesto Asignado</th>
+                                                                        <th>Fecha de asignación</th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Puesto de Santa Clara</td>
+                                                                        <td>12/01/2020</td>
+
 
                                                                         <td>
                                                                             <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
@@ -696,7 +738,7 @@
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableLicencia">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Numero licencia</th>
@@ -749,7 +791,7 @@
                                                 <div class="card">
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableAcademica">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Grado obtenido</th>
@@ -806,7 +848,7 @@
                                                     <div class="card-content">
 
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableCursos">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Capacitaciones y cursos</th>
@@ -847,7 +889,7 @@
 
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableHabilidades">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Habilidades</th>
@@ -887,7 +929,7 @@
                                                 <div class="card">
                                                     <div class="card-content">
                                                         <div class="card-body">
-                                                            <table class="table table-striped" id="table1">
+                                                            <table class="table table-striped" id="tableEspecialidad">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Especialidades</th>
@@ -1093,6 +1135,32 @@
         let dataTable_p = new simpleDatatables.DataTable(tb_permisos);
         let dataTable_s = new simpleDatatables.DataTable(tb_sanciones);
         let dataTable_f = new simpleDatatables.DataTable(tb_familia);
+        let tableOni = document.querySelector('#tableOni');
+        let dataTableONI = new simpleDatatables.DataTable(tableOni);
+        let tablePromocion = document.querySelector('#tablePromocion');
+        let dataTableP = new simpleDatatables.DataTable(tablePromocion);
+        let tableArma = document.querySelector('#tableArma');
+        let dataTableA = new simpleDatatables.DataTable(tableArma);
+        let tableLicencia = document.querySelector('#tableLicencia');
+        let dataTableLi = new simpleDatatables.DataTable(tableLicencia);
+        let tableDatos = document.querySelector('#tableDatos');
+        let dataTableDa = new simpleDatatables.DataTable(tableDatos);
+        let tableCel = document.querySelector('#tableCel');
+        let dataTableCe = new simpleDatatables.DataTable(tableCel);
+        let tableEnfe = document.querySelector('#tableEnfe');
+        let dataTableEn = new simpleDatatables.DataTable(tableEnfe);
+        let tableDis = document.querySelector('#tableDis');
+        let dataTableDis = new simpleDatatables.DataTable(tableDis);
+        let tableAcademica = document.querySelector('#tableAcademica');
+        let dataTableAca = new simpleDatatables.DataTable(tableAcademica);
+        let tableCursos = document.querySelector('#tableCursos');
+        let dataTableCursos = new simpleDatatables.DataTable(tableCursos);
+        let tableHabilidades = document.querySelector('#tableHabilidades');
+        let dataTableHab = new simpleDatatables.DataTable(tableHabilidades);
+        let tableEspecialidad = document.querySelector('#tableEspecialidad');
+        let dataTableEspe = new simpleDatatables.DataTable(tableEspecialidad);
+        let tableTrabajo = document.querySelector('#tableTrabajo');
+        let dataTableTra = new simpleDatatables.DataTable(tableTrabajo);
     </script>
     <?php include 'footer.php'; ?>
     </div>
