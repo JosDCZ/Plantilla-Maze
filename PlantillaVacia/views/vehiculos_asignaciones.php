@@ -3,7 +3,7 @@
 <body>
     <div id="app">
         <!-- <div id="sidebar" class="active">-->
-        <?php $page = 'exp';
+        <?php $page = 'vehiculos';
         $item = '1';
         include 'nav_bar.php';  ?>
         <?php include 'navbar-horizontal.php';  ?>
@@ -17,7 +17,7 @@
 
         <div class="page-heading">
             <!-- MODALES-->
-            
+
             <div class="page-title">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-1 order-last">
@@ -56,7 +56,7 @@
                                         </div>
                                     </div>
 
-                                     <div class="form-group has-icon-left">
+                                    <div class="form-group has-icon-left">
                                         <label for="Id-icon">Numero de placa</label>
                                         <div class="position-relative">
                                             <input type="text" class="form-control" placeholder="" id="Id-icon">
@@ -66,7 +66,7 @@
                                         </div>
                                     </div>
 
-                                     <div class="form-group has-icon-left">
+                                    <div class="form-group has-icon-left">
                                         <label for="Id-icon">Año del vehiculo</label>
                                         <div class="position-relative">
                                             <input type="number" class="form-control" placeholder="<?php echo date("Y") ?>" id="Id-icon">
@@ -76,9 +76,9 @@
                                         </div>
                                     </div>
 
-                                     <div class="form-group has-icon-left">
+                                    <div class="form-group has-icon-left">
                                         <label for="Id-icon">Año del vehiculo</label>
-                                       <select class="form-select" aria-label="Default select example">
+                                        <select class="form-select" aria-label="Default select example">
                                             <option selected>Seleccione una opción</option>
                                             <option value="1">AUTOMOVIL</option>
                                             <option value="2">MICROBUS</option>
@@ -88,24 +88,24 @@
                                     </div>
                                     <div class="form-group has-icon-left">
                                         <label for="Id-icon">Funcion</label>
-                                       <select class="form-select" aria-label="Default select example">
+                                        <select class="form-select" aria-label="Default select example">
                                             <option selected>Seleccione una opción</option>
                                             <option value="1">Civil</option>
                                             <option value="2">Patrulla</option>
                                         </select>
                                     </div>
                                 </div>
-                                 <div class="col-md-4 col-12 mb-3 mb-md-0">
-                                     <div class="form-group has-icon-left">
+                                <div class="col-md-4 col-12 mb-3 mb-md-0">
+                                    <div class="form-group has-icon-left">
                                         <label for="Id-icon">Legalidad</label>
-                                       <select class="form-select" aria-label="Default select example">
+                                        <select class="form-select" aria-label="Default select example">
                                             <option selected>Institucional</option>
                                             <option value="1">Comodato</option>
                                             <option value="2">Deposito Local</option>
                                         </select>
                                     </div>
                                     <div class="border rounded p-3" style="border-color: rgba(0,0,0,0.8)">
-                                       <div class="form-group">
+                                        <div class="form-group">
                                             <label for="Id-icon">Situacion del vehiculo</label>
                                             <br>
                                             <div class="form-check form-check-inline">
@@ -116,11 +116,11 @@
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                <label class="form-check-label" for="flexRadioDefault2" >
+                                                <label class="form-check-label" for="flexRadioDefault2">
                                                     Inactivo
                                                 </label>
                                             </div>
-                                       </div>
+                                        </div>
                                         <div class="form-group has-icon-left">
                                             <label for="Id-icon">Estado de la situacion</label>
                                             <select class="form-select" aria-label="Default select example">
@@ -136,7 +136,7 @@
                                                 <option value="2">FALTA DE LLANTAS</option>
                                             </select>
                                         </div>
-                                         <div class="form-group has-icon-left">
+                                        <div class="form-group has-icon-left">
                                             <label for="Correo-icon">Fecha del estado actual</label>
                                             <div class="position-relative">
                                                 <input type="date" class="form-control" placeholder="" id="Id-icon" value="<?php echo date("Y-m-d") ?>">
@@ -156,7 +156,7 @@
                                                 <option selected>Seccion de recopilacion de informacion</option>
                                             </select>
                                         </div>
-                                         <div class="form-group has-icon-left">
+                                        <div class="form-group has-icon-left">
                                             <label for="Correo-icon">Fecha de la asignacion actual</label>
                                             <div class="position-relative">
                                                 <input type="date" class="form-control" placeholder="" id="Id-icon" value="<?php echo date("Y-m-d") ?>">
@@ -185,7 +185,7 @@
 
             </div>
 
-             <div class="modal fade text-left w-100" id="modalEstados" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16" aria-hidden="true">
+            <div class="modal fade text-left w-100" id="modalEstados" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header bg-primary">
@@ -196,80 +196,80 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                           <p class="h6 fw-normal">Estado actual: <span class="fw-bold badge bg-danger">Inactivo</span></p>
-                           <p class="h6 fw-normal">Situacion actual: <span class="fw-bold">Accidentado</span></p>
-                           <hr>
-                           <h4 class="h6">Listado de estados anteriores</h4>
+                            <p class="h6 fw-normal">Estado actual: <span class="fw-bold badge bg-danger">Inactivo</span></p>
+                            <p class="h6 fw-normal">Situacion actual: <span class="fw-bold">Accidentado</span></p>
+                            <hr>
+                            <h4 class="h6">Listado de estados anteriores</h4>
                             <table class="table table-striped" id="table2">
-                                        <thead>
-                                            <tr>
-                                                <th>Fecha del estado</th>
-                                                <th>Estado</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                    Accientado
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                  Daños furtuitos
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                    Accientado
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                  Daños furtuitos
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                    Accientado
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                  Daños furtuitos
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                    Accientado
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                  Daños furtuitos
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                    Accientado
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                  Daños furtuitos
-                                                </td>                                               
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <thead>
+                                    <tr>
+                                        <th>Fecha del estado</th>
+                                        <th>Estado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Accientado
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Daños furtuitos
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Accientado
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Daños furtuitos
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Accientado
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Daños furtuitos
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Accientado
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Daños furtuitos
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Accientado
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Daños furtuitos
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
@@ -294,31 +294,31 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                           <p class="h6 fw-normal">Asignacion actual: <span class="fw-bold">Puesto Guadalupe</span></p>
-                           <hr>
-                           <h4 class="h6">Listado de asignaciones anteriores</h4>
+                            <p class="h6 fw-normal">Asignacion actual: <span class="fw-bold">Puesto Guadalupe</span></p>
+                            <hr>
+                            <h4 class="h6">Listado de asignaciones anteriores</h4>
                             <table class="table table-striped" id="table3">
-                                        <thead>
-                                            <tr>
-                                                <th>Fecha de la asignacion</th>
-                                                <th>Unidad policial</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                    Departamento de inteligencia
-                                                </td>                                               
-                                            </tr>
-                                            <tr>
-                                                <td><?php echo date("d-m-Y")?></td>
-                                                <td>
-                                                 Puesto de tepetitan
-                                                </td>                                               
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <thead>
+                                    <tr>
+                                        <th>Fecha de la asignacion</th>
+                                        <th>Unidad policial</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Departamento de inteligencia
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo date("d-m-Y") ?></td>
+                                        <td>
+                                            Puesto de tepetitan
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-light-secondary" data-bs-dismiss="modal" onclick="Limpiar()">
@@ -330,16 +330,16 @@
                 </div>
             </div>
 
-            
-            
+
+
 
             <!--FIN DEL MODAL PARA REGISTRO DE CONTACTOS-->
             <!--login form Modal -->
-           
-            
+
+
             <!--Fin de modal registro telefono-->
 
-           
+
 
             <section id="basic-modals">
                 <div class="row">
@@ -372,17 +372,17 @@
                                                     Patrulla
                                                 </td>
                                                 <td>
-                                                   MICROBUS
+                                                    MICROBUS
                                                 </td>
                                                 <td>
-                                                     <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalEstados"><i class="bi bi-eye"></i></button>
+                                                    <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalEstados"><i class="bi bi-eye"></i></button>
                                                 </td>
                                                 <td>
                                                     <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalAsignaciones"><i class="bi bi-eye"></i></button>
                                                 </td>
                                                 <td>
-                                                       <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
-                                                          <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                                                    <button class="btn btn-secondary"><i class="bi bi-pencil-square"></i></button>
+                                                    <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>

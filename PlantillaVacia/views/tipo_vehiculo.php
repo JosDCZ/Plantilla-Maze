@@ -3,8 +3,8 @@
 <body>
     <div id="app">
         <!-- <div id="sidebar" class="active">-->
-        <?php $page = 'exp';
-        $item = '1';
+        <?php $page = 'vehiculos';
+        $item = '2';
         include 'nav_bar.php';  ?>
         <?php include 'navbar-horizontal.php';  ?>
     </div>

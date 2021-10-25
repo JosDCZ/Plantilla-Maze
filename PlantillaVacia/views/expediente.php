@@ -20,11 +20,13 @@
         <div class="page-content">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header d-flex align-items-center ">
+                    <div class="card-header d-flex align-items-center border-bottom pb-2">
                         <a href="nuevo_expediente.php" class="btn btn-white"><i class="bi bi-x bi-middle"></i></a>
-                        <h5 class="card-title m-0 ps-2 ">Ficha Personal</h5>
+                        <h5 class="card-title m-0 ps-2  ">Ficha Personal</h5>
+
                     </div>
-                    <div class="card-body">
+
+                    <div class="card-body pt-3">
                         <div class="row">
                             <div class="col-md-3 col-12 text-center pb-2 ">
                                 <img src="../assets/images/logo/usuario.png" class="img-fluid" alt="...">
@@ -131,7 +133,8 @@
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    <table class="table table-borderless" id="tableDatos">
+                                                    <p class="text-end m-0"><a href="index.php" class="btn btn-info " role="button" aria-disabled="true"><i class="bi bi-pencil"></i></a></p>
+                                                    <table class="table table-borderless" id="tableDato">
                                                         <tbody>
                                                             <tr>
                                                                 <td>
@@ -149,7 +152,13 @@
                                                                     <div class="form-group has-icon-left">
                                                                         <label for="Id-icon">Género</label>
                                                                         <br>
-                                                                        <div class="form-check form-check-inline">
+                                                                        <div class="position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Masculino" id="Id-icon">
+                                                                            <div class="form-control-icon">
+                                                                                <!-- <i class="bi bi-"></i> -->
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- <div class="form-check form-check-inline">
                                                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                                                             <label class="form-check-label" for="flexRadioDefault1">
                                                                                 Masculino
@@ -160,7 +169,7 @@
                                                                             <label class="form-check-label" for="flexRadioDefault2">
                                                                                 Femenino
                                                                             </label>
-                                                                        </div>
+                                                                        </div> -->
 
                                                                     </div>
                                                                 </td>
@@ -168,7 +177,7 @@
                                                                     <div class="form-group has-icon-left">
                                                                         <label for="Id-icon">Tipo de sangre</label>
                                                                         <select class="form-select" aria-label="Default select example">
-                                                                            <option selected>Seleccione una opción</option>
+                                                                            <!-- <option selected></option> -->
                                                                             <option value="1">O negativo</option>
                                                                             <option value="2">ORH positivo</option>
                                                                             <option value="3">A negativo</option>
@@ -366,17 +375,21 @@
                                         <!---------------------------------Telefonos---------------------------------------------------->
 
                                         <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingTwo">
+                                            <h2 class="accordion-header d-flex" id="headingTwo">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                     <h6 class="m-0">Teléfonos</h6>
+
                                                 </button>
+
                                             </h2>
                                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
                                                     <div class="card">
 
                                                         <div class="card-content">
-                                                            <div class="card-body">
+
+                                                            <div class="card-body pt-1">
+                                                                <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                                 <table class="table table-striped" id="tableCel">
                                                                     <thead>
                                                                         <tr>
@@ -434,9 +447,11 @@
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                     <h6 class="m-0">Enfermedades</h6>
                                                 </button>
+
                                             </h2>
                                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
+                                                    <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                     <table class="table table-striped" id="tableEnfe">
                                                         <thead>
                                                             <tr>
@@ -502,6 +517,7 @@
                                             </h2>
                                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
+                                                    <p class="text-end m-0 pe-2"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                     <table class="table table-striped" id="tableDis">
                                                         <thead>
                                                             <tr>
@@ -547,7 +563,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableOni">
                                                                 <thead>
                                                                     <tr>
@@ -591,7 +608,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tablePromocion">
                                                                 <thead>
                                                                     <tr>
@@ -632,7 +650,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableArma">
                                                                 <thead>
                                                                     <tr>
@@ -683,7 +702,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableTrabajo">
                                                                 <thead>
                                                                     <tr>
@@ -737,7 +757,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableLicencia">
                                                                 <thead>
                                                                     <tr>
@@ -790,7 +811,8 @@
 
                                                 <div class="card">
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableAcademica">
                                                                 <thead>
                                                                     <tr>
@@ -847,7 +869,8 @@
                                                 <div class="card">
                                                     <div class="card-content">
 
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableCursos">
                                                                 <thead>
                                                                     <tr>
@@ -888,7 +911,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableHabilidades">
                                                                 <thead>
                                                                     <tr>
@@ -928,7 +952,8 @@
 
                                                 <div class="card">
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tableEspecialidad">
                                                                 <thead>
                                                                     <tr>
@@ -967,6 +992,7 @@
 
                                             <div class="card-content">
                                                 <div class="card-body">
+                                                    <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                     <table class="table table-striped" id="tb_familia">
                                                         <thead>
                                                             <tr>
@@ -1024,7 +1050,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tb_permisos">
                                                                 <thead>
                                                                     <tr>
@@ -1074,7 +1101,8 @@
                                                 <div class="card">
 
                                                     <div class="card-content">
-                                                        <div class="card-body">
+                                                        <div class="card-body pt-0 pb-2">
+                                                            <p class="text-end m-0"><a href="index.php" class="btn btn-warning " role="button" aria-disabled="true"><i class="bi bi-plus-square"></i></a></p>
                                                             <table class="table table-striped" id="tb_sanciones">
                                                                 <thead>
                                                                     <tr>
