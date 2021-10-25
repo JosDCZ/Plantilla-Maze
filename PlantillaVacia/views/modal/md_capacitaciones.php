@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<div class="modal fade text-left" id="md_exp" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+<div class="modal fade text-left" id="md_cursos" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h4 class="modal-title white" id="myModalLabel16">Experiencia Laboral
+                <h4 class="modal-title white" id="myModalLabel16">Capacitaciones y cursos
                 </h4>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <i data-feather="x"></i>
@@ -27,16 +27,8 @@
                                 <!-- aqui se obtendia el nombre del policia atravez de su dui -->
                                 <input type="text" readonly="readonly" class="form-control" value="Nombre del personal" id="Apellido-icon">
                             </div>
-                            <div class="form-group has-icon-left">
-                                <label for="Id-icon">Grado académico</label>
-                                <div class="position-relative">
-                                    <input type="text" class="form-control" placeholder="Bachiller" id="Id-icon">
-                                    <div class="form-control-icon">
-                                        <i class="bi bi-credit-card-2-front"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <label for="Id-icon">Trabajo realizado</label>
+
+                            <label for="Id-icon">Capacitaciones y cursos</label>
                             <div class="input-group">
                                 <select class="form-select">
                                     <option value="square">Seleccione...</option>
@@ -44,7 +36,7 @@
                                     <option value="square">ALbañil</option>
                                     <option value="square">Mantenimineto de computadoras</option>
                                 </select>
-                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#md_addtrabajo" type="button" id="inputGroupFileAddon04">Agregar</button>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#md_addcursos" type="button" id="inputGroupFileAddon04">Agregar</button>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">

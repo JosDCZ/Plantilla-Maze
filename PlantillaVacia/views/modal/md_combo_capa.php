@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
 
-<div class="modal fade text-left" id="modalafp" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
+<div class="modal fade text-left" id="md_addcursos" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h4 class="modal-title white" id="myModalLabel16">AFP
+                <h4 class="modal-title white" id="myModalLabel16">Capacitaciones y cursos
                 </h4>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <i data-feather="x"></i>
@@ -14,30 +15,36 @@
                 <div class="row">
                     <div class="">
 
-                        <div class="form-group has-icon-left">
-                            <label for="Id-icon">Dui Empleado</label>
-                            <select class="choices form-select">
 
+
+                        <div class="form-group has-icon-left">
+                            <label for="Apellido-icon">Nombre de cursos o capacitación</label>
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="Ingrese nombre de curso" id="Apellido-icon">
+                                <div class="form-control-icon">
+                                    <i class="bi bi-list-check"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group has-icon-left">
+                            <label for="Id-icon">Tipo </label>
+                            <select class="form-select">
                                 <option value="square">Seleccione...</option>
-                                <option value="square">[05580999-7]JUAN ANTONIO QUESADA</option>
-                                <option value="rectangle">[05580339-1] RIGOBERTO JOSUE GONZALES</option>
-                                <option value="rombo">[03580000-3] MAXIMILIANO PONCE DE LEON</option>
+                                <option value="square">Opción</option>
+                                <option value="square">Opción</option>
+
+
 
                             </select>
                         </div>
-                        <div class="form-group has-icon-left">
-                            <label for="Id-icon">AFP</label>
-                            <select class="choices form-select">
 
-                                <option value="square">Seleccione...</option>
-                                <option value="square">AFP-Confía</option>
-                                <option value="rectangle">AFP-Crecer</option>
-                                <option value="rombo">ASAFONDOS</option>
-                                <option value="rombo">Otra</option>
 
-                            </select>
-                        </div>
+
+
                     </div>
+
+
+
                 </div>
             </div>
             <div class="modal-footer">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<div class="modal fade text-left" id="md_lic_armas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel20" aria-hidden="true">
+<div class="modal fade text-left" id="md_lic_armas" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="myModalLabel20" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
