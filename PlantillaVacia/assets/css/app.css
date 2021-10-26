@@ -762,7 +762,7 @@
   top: 0;
   transition: left 0.5s ease-out;
   width: 300px;
-  z-index: 10;
+  z-index: 200;
 }
 .sidebar-wrapper .sidebar-header {
   font-size: 2rem;
