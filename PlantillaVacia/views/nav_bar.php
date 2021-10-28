@@ -102,7 +102,7 @@
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="error404.php"><b>Nuevo expediente</b></a>
+                        <a href="consultas/consulta22.php"><b>Nuevo expediente</b></a>
                     </li>
                     <li class="submenu-item ">
                         <a href="error404.php"><b>Mantenimiento de expediente</b></a>

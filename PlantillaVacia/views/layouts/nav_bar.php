@@ -3,7 +3,7 @@
     <div class="sidebar-header p-0 mt-4">
         <div class="d-flex justify-content-center">
             <div class="logo">
-                <a href="../index.php"><img src="../../assets/images/logo/pnc.png" alt="logo" style="height: 5rem;"></a>
+                <a href="../pages/index.php"><img src="../../assets/images/logo/pnc.png" alt="logo" style="height: 5rem;"></a>
             </div>
 
             <div class="toggler">
@@ -20,7 +20,7 @@
             <li class="sidebar-item <?php if ($page == 'home') {
                                         echo 'active';
                                     } ?>">
-                <a href="../index.php" class='sidebar-link'>
+                <a href="../pages/index.php" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
                     <span><b>Inicio</b></span>
                 </a>
@@ -38,10 +38,10 @@
                     <li class="submenu-item <?php if ($item == '1') {
                                                 echo 'active';
                                             } ?>  ">
-                        <a href="../nuevo_expediente.php"><b>Nuevo expediente</b></a>
+                        <a href="../pages/nuevo_expediente.php"><b>Nuevo expediente</b></a>
                     </li>
                     <li class="submenu-item ">
-                        <a href="../error404.php"><b>Expedientes</b></a>
+                        <a href="../pages/error404.php"><b>Expedientes</b></a>
                     </li>
                 </ul>
             </li>
@@ -58,12 +58,12 @@
                     <li class="submenu-item <?php if ($item == '3') {
                                                 echo 'active';
                                             } ?>  ">
-                        <a href="../asignacion_uniformes.php"><b>Asignar Uniformes</b></a>
+                        <a href="../pages/asignacion_uniformes.php"><b>Asignar Uniformes</b></a>
                     </li>
                     <li class="submenu-item <?php if ($item == '4') {
                                                 echo 'active';
                                             } ?>">
-                        <a href="../mantenimiento_uniformes.php"><b>Matenimiento uniformes</b></a>
+                        <a href="../pages/mantenimiento_uniformes.php"><b>Matenimiento uniformes</b></a>
                     </li>
 
                 </ul>
@@ -81,17 +81,17 @@
                     <li class="submenu-item <?php if ($item == '1') {
                                                 echo 'active';
                                             } ?>">
-                        <a href="../vehiculos_asignaciones.php"><b>Vehiculos y asignaciones</b></a>
+                        <a href="../pages/vehiculos_asignaciones.php"><b>Vehiculos y asignaciones</b></a>
                     </li>
                     <li class="submenu-item <?php if ($item == '2') {
                                                 echo 'active';
                                             } ?>">
-                        <a href="../tipo_vehiculo.php"><b>Tipos de vehiculos</b></a>
+                        <a href="../pages/tipo_vehiculo.php"><b>Tipos de vehiculos</b></a>
                     </li>
                     <li class="submenu-item <?php if ($item == '3') {
                                                 echo 'active';
                                             } ?>">
-                        <a href="../estado_vehiculo.php"><b>Estados de vehiculos</b></a>
+                        <a href="../pages/estado_vehiculo.php"><b>Estados de vehiculos</b></a>
                     </li>
                 </ul>
             </li>
@@ -102,13 +102,34 @@
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="../error404.php"><b>Nuevo expediente</b></a>
+                        <a href="../pages/error404.php"><b>Nuevo expediente</b></a>
                     </li>
                     <li class="submenu-item ">
-                        <a href="../error404.php"><b>Mantenimiento de expediente</b></a>
+                        <a href="../pages/error404.php"><b>Mantenimiento de expediente</b></a>
                     </li>
                 </ul>
             </li>
+
+            <!-- CONSULTAS -->
+                <li class="sidebar-item  has-sub <?php if ($page == 'con22') {
+                    echo 'active';
+                } ?>">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-truck"></i>
+                    <span><b>Consultas</b></span>
+                </a>
+                <ul class="submenu <?php if ($page == 'con22') {
+                    echo 'active';
+                } ?>">
+                <li class="submenu-item <?php if ($item == '1') {
+                    echo 'active';
+                } ?>">
+                <a href="../consultas/consulta22.php"><b>Oficiales y su nivel academico</b></a>
+            </li>
+            
+        
+    </ul>
+    </li>
         </ul>
         </ul>
 

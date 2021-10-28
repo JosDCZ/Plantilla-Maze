@@ -43,12 +43,12 @@
                 <?php include '../layouts/footer.php'; ?>
                 <script>
         // Simple Datatable
-        // let tablecon22 = document.querySelector('#tb_consulta22');
-        // let dataTablecon22 = new simpleDatatables.DataTable(tablecon22);
+       
     </script>
     <script src="../../assets/vendors/jquery/jquery.min.js"></script>
-    <script src="../../assets/js/consultas_funciones/funciones_22.js"></script>
+    <script src="../../models/consultas_funciones/funciones_22.js"></script>
     
+
 </div>
 </div>
 
