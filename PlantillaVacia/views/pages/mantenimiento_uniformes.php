@@ -1,12 +1,12 @@
-<?php include 'header.php'; ?>
+<?php include '../layouts/header.php'; ?>
 
 <body>
     <div id="app">
         <!-- <div id="sidebar" class="active">-->
         <?php $page = 'unifor';
         $item = '4';
-        include 'nav_bar.php';  ?>
-        <?php include 'navbar-horizontal.php';  ?>
+        include '../layouts/nav_bar.php';  ?>
+        <?php include '../layouts/navbar-horizontal.php';  ?>
     </div>
     <div id="main">
         <header class="mb-3">
@@ -18,9 +18,9 @@
         <div class="page-heading">
 
             <!-- MODALES-->
-            <?php include 'modal/md_reg_accesorios.php'; ?>
-            <?php include 'modal/md_reg_uniforme.php'; ?>
-            <?php include 'modal/md_regunifor_pla_onis.php'; ?>
+            <?php include '../modal/md_reg_accesorios.php'; ?>
+            <?php include '../modal/md_reg_uniforme.php'; ?>
+            <?php include '../modal/md_regunifor_pla_onis.php'; ?>
 
 
 
@@ -101,13 +101,13 @@
 
             </section>
 
-            <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
+            <script src="../../assets/vendors/simple-datatables/simple-datatables.js"></script>
             <script>
                 // Simple Datatable
                 let table1 = document.querySelector('#table1');
                 let dataTable = new simpleDatatables.DataTable(table1);
             </script>
-            <?php include 'footer.php'; ?>
+            <?php include '../layouts/footer.php'; ?>
 
         </div>
     </div>

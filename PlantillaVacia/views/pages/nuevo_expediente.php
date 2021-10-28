@@ -1,40 +1,40 @@
-<?php include 'header.php'; ?>
-
+<?php include '../layouts/header.php'; ?>
+<!-- L -->
 <body>
     <div id="app">
         <?php $page = 'exp';
         $item = '1';
-        include 'nav_bar.php';  ?>
-        <?php include 'navbar-horizontal.php';  ?>
+        include '../layouts/nav_bar.php';  ?>
+        <?php include '../layouts/navbar-horizontal.php';  ?>
     </div>
 
     <div id="main">
         <div class="page-heading">
             <!-- MODALES-->
-            <?php include 'modal/modal_oni.php'; ?>
-            <?php include 'modal/modal_promocion.php'; ?>
-            <?php include 'modal/modal_enfermedad.php'; ?>
-            <?php include 'modal/modal_combo_enfermedades.php'; ?>
-            <?php include 'modal/md_afp.php'; ?>
-            <?php include 'modal/md_especialidadGusta.php'; ?>
-            <?php include 'modal/md_discapacidad.php'; ?>
-            <?php include 'modal/modal_armas.php'; ?>
-            <?php include 'modal/modal_lic_armas.php'; ?>
-            <?php include 'modal/modal_lic_conducir.php'; ?>
-            <?php include 'modal/modal_equipo_computo.php'; ?>
-            <?php include 'modal/md_educacion.php'; ?>
-            <?php include 'modal/md_instituciones.php'; ?>
-            <?php include 'modal/md_exp_laboral.php'; ?>
-            <?php include 'modal/md_telefono.php'; ?>
-            <?php include 'modal/md_trabajo.php'; ?>
-            <?php include 'modal/md_datos_personales.php'; ?>
-            <?php include 'modal/modal_familiares.php'; ?>
-            <?php include 'modal/md_habilidades_tec.php'; ?>
-            <?php include 'modal/modal_especialidad.php'; ?>
-            <?php include 'modal/modal_combo_especialidad.php'; ?>
-            <?php include 'modal/md_capacitaciones.php'; ?>
-            <?php include 'modal/md_combo_capa.php'; ?>
-            <?php include 'modal/md_puesto_trabajo.php'; ?>
+            <?php include '../modal/modal_oni.php'; ?>
+            <?php include '../modal/modal_promocion.php'; ?>
+            <?php include '../modal/modal_enfermedad.php'; ?>
+            <?php include '../modal/modal_combo_enfermedades.php'; ?>
+            <?php include '../modal/md_afp.php'; ?>
+            <?php include '../modal/md_especialidadGusta.php'; ?>
+            <?php include '../modal/md_discapacidad.php'; ?>
+            <?php include '../modal/modal_armas.php'; ?>
+            <?php include '../modal/modal_lic_armas.php'; ?>
+            <?php include '../modal/modal_lic_conducir.php'; ?>
+            <?php include '../modal/modal_equipo_computo.php'; ?>
+            <?php include '../modal/md_educacion.php'; ?>
+            <?php include '../modal/md_instituciones.php'; ?>
+            <?php include '../modal/md_exp_laboral.php'; ?>
+            <?php include '../modal/md_telefono.php'; ?>
+            <?php include '../modal/md_trabajo.php'; ?>
+            <?php include '../modal/md_datos_personales.php'; ?>
+            <?php include '../modal/modal_familiares.php'; ?>
+            <?php include '../modal/md_habilidades_tec.php'; ?>
+            <?php include '../modal/modal_especialidad.php'; ?>
+            <?php include '../modal/modal_combo_especialidad.php'; ?>
+            <?php include '../modal/md_capacitaciones.php'; ?>
+            <?php include '../modal/md_combo_capa.php'; ?>
+            <?php include '../modal/md_puesto_trabajo.php'; ?>
 
             <div class="page-title">
                 <div class="row">
@@ -199,7 +199,7 @@
                         </div>
                         <div class="modal-body ">
                             <div class="card align-items-center" style="width: auto;">
-                                <img src="../assets/images/logo/mantenimiento.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
+                                <img src="../../assets/images/logo/mantenimiento.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
                                 <div class="card-body ">
                                     <h5 class="card-title">En Mantenimiento</h5>
 
@@ -315,13 +315,13 @@
                     </div>
 
             </section>
-            <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
+            <script src="../../assets/vendors/simple-datatables/simple-datatables.js"></script>
             <script>
                 // Simple Datatable
                 let table1 = document.querySelector('#table1');
                 let dataTable = new simpleDatatables.DataTable(table1);
             </script>
-            <?php include 'footer.php'; ?>
+            <?php include '../layouts/footer.php'; ?>
 
         </div>
     </div>

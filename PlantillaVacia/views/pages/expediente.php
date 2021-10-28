@@ -1,22 +1,22 @@
-<?php include 'header.php'; ?>
-
+<?php include '../layouts/header.php'; ?>
+<!-- LISTO -->
 <body>
     <div id="app">
 
         <?php $page = 'exp';
         $item = '1';
-        include 'nav_bar.php';  ?>
-        <?php include 'navbar-horizontal.php';  ?>
-        <?php include 'modal/modal_enfermedad.php'; ?>
-        <?php include 'modal/md_discapacidad.php'; ?>
-        <?php include 'modal/md_educacion.php'; ?>
-        <?php include 'modal/md_especialidadGusta.php'; ?>
-        <?php include 'modal/modal_equipo_computo.php'; ?>
-        <?php include 'modal/modal_familiares.php'; ?>
-        <?php include 'modal/md_exp_laboral.php'; ?>
+        include '../layouts/nav_bar.php';  ?>
+        <?php include '../layouts/navbar-horizontal.php';  ?>
+        <?php include '../modal/modal_enfermedad.php'; ?>
+        <?php include '../modal/md_discapacidad.php'; ?>
+        <?php include '../modal/md_educacion.php'; ?>
+        <?php include '../modal/md_especialidadGusta.php'; ?>
+        <?php include '../modal/modal_equipo_computo.php'; ?>
+        <?php include '../modal/modal_familiares.php'; ?>
+        <?php include '../modal/md_exp_laboral.php'; ?>
     </div>
     <div id="main">
-        <?php include 'modal/md_telefono.php'; ?>
+        <?php include '../modal/md_telefono.php'; ?>
         <div class="page-content">
             <div class="col-md-12">
                 <div class="card">
@@ -29,7 +29,7 @@
                     <div class="card-body pt-3">
                         <div class="row">
                             <div class="col-md-3 col-12 text-center pb-2 ">
-                                <img src="../assets/images/logo/usuario.png" class="img-fluid" alt="...">
+                                <img src="../../assets/images/logo/usuario.png" class="img-fluid" alt="...">
                             </div>
                             <div class="col-md-9 col-12">
                                 <div class="row p-0">
@@ -1142,19 +1142,19 @@
                                 </div>
                             </div>
                             <!-- FIN DE PERMISOS Y SANCIONES -->
-                            <?php include 'modal/modal_permisos.php'; ?>
-                            <?php include 'modal/modal_combo_motivo.php'; ?>
+                            <?php include '../modal/modal_permisos.php'; ?>
+                            <?php include '../modal/modal_combo_motivo.php'; ?>
 
 
                         </div>
-                        <?php include 'modal/modal_sancion.php'; ?>
+                        <?php include '../modal/modal_sancion.php'; ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
+    <script src="../../assets/vendors/simple-datatables/simple-datatables.js"></script>
     <script>
         // Simple Datatable
         let tb_permisos = document.querySelector('#tb_permisos');
@@ -1190,7 +1190,7 @@
         let tableTrabajo = document.querySelector('#tableTrabajo');
         let dataTableTra = new simpleDatatables.DataTable(tableTrabajo);
     </script>
-    <?php include 'footer.php'; ?>
+    <?php include '../layouts/footer.php'; ?>
     </div>
 
 </body>

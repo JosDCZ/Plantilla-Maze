@@ -1,11 +1,11 @@
-<?php include 'header.php'; ?>
+<?php include '../layouts/header.php'; ?>
 
 <body>
     <div id="app">
         <!-- <div id="sidebar" class="active"> -->
         <?php $page = 'home';
-        include 'nav_bar.php';  ?>
-        <?php include 'navbar-horizontal.php';  ?>
+        include '../layouts/nav_bar.php';  ?>
+        <?php include '../layouts/navbar-horizontal.php';  ?>
         <!-- </div> -->
     </div>
     <div id="main">
@@ -166,7 +166,7 @@
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
                                                 <svg class="bi text-primary" width="32" height="32" fill="blue" style="width:10px">
-                                                    <use xlink:href="../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                    <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                                 </svg>
                                                 <h5 class="mb-0 ms-3">Europe</h5>
                                             </div>
@@ -182,7 +182,7 @@
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
                                                 <svg class="bi text-success" width="32" height="32" fill="blue" style="width:10px">
-                                                    <use xlink:href="../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                    <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                                 </svg>
                                                 <h5 class="mb-0 ms-3">America</h5>
                                             </div>
@@ -198,7 +198,7 @@
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
                                                 <svg class="bi text-danger" width="32" height="32" fill="blue" style="width:10px">
-                                                    <use xlink:href="../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                    <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                                 </svg>
                                                 <h5 class="mb-0 ms-3">Indonesia</h5>
                                             </div>
@@ -218,7 +218,7 @@
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
                                             <svg class="bi text-danger" width="32" height="32" fill="blue" style="width:10px">
-                                                <use xlink:href="assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
+                                                <use xlink:href="../../assets/vendors/bootstrap-icons/bootstrap-icons.svg#circle-fill" />
                                             </svg>
                                             <h5 class="mb-0 ms-3">Indonesia</h5>
                                         </div>
@@ -251,7 +251,7 @@
                                                     <td class="col-3">
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar avatar-md">
-                                                                <img src="../assets/images/faces/5.jpg">
+                                                                <img src="../../assets/images/faces/5.jpg">
                                                             </div>
                                                             <p class="font-bold ms-3 mb-0">Si Cantik</p>
                                                         </div>
@@ -264,7 +264,7 @@
                                                     <td class="col-3">
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar avatar-md">
-                                                                <img src="../assets/images/faces/2.jpg">
+                                                                <img src="../../assets/images/faces/2.jpg">
                                                             </div>
                                                             <p class="font-bold ms-3 mb-0">Si Ganteng</p>
                                                         </div>
@@ -358,7 +358,7 @@
                     </div>
                     <div class="modal-body ">
                         <div class="card align-items-center" style="width: auto;">
-                            <img src="../assets/images/logo/usuario.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
+                            <img src="../../assets/images/logo/usuario.png" class="card-img-top" alt="..." style="width: 35%; height: 35%">
                             <div class="card-body ">
                                 <h5 class="card-title">Daniela Sarai Osorio Rivas</h5>
                                 <p class="card-text ">Edad : 45 años</p>
@@ -384,13 +384,13 @@
             </div>
         </div>
     </div>
-    <script src="../assets/vendors/simple-datatables/simple-datatables.js"></script>
+    <script src="../../assets/vendors/simple-datatables/simple-datatables.js"></script>
     <script>
         // Simple Datatable
         let table1 = document.querySelector('#table1');
         let dataTable = new simpleDatatables.DataTable(table1);
     </script>
-    <?php include 'footer.php'; ?>
+    <?php include '../layouts/footer.php'; ?>
 
     </div>
     </div>
