@@ -52,7 +52,7 @@ if (isset($_POST['consultar_datos']) && $_POST['consultar_datos']=="si_consultal
         $html.=$html_tr;
         $html.='</tbody>
         </table>';
-
+        
         print json_encode(array("Exito",$html,$resultado[4]));
     }else {
         print json_encode(array("Error",$resultado));
@@ -60,3 +60,4 @@ if (isset($_POST['consultar_datos']) && $_POST['consultar_datos']=="si_consultal
     
 }
 ?>
+
